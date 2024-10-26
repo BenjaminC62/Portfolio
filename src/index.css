@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* Variables */
+
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+
+    --second-font: 'Roboto', sans-serif;
+
+    --main-text-color: white;
+    --main-font-color: #00ffee;
+    --main-font-size: 16px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
