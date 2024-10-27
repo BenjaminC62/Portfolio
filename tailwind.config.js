@@ -8,11 +8,16 @@ export default {
       colors: {
         background: "#080808",
         text: "#00ffee",
+        main: "#131313",
       },
       textShadow: {
         sm: "0 1px 2px var(--tw-shadow-color)",
         DEFAULT: "0 2px 4px var(--tw-shadow-color)",
         lg: "0 8px 16px var(--tw-shadow-color)",
+        name: "0 0 25px var(--tw-shadow-color)",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

@@ -2,14 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 /* Variables */
 
 :root {
     --bg-color: #080808;
     --second-bg-color: #131313;
 
+    --main-font-family: 'poppins', sans-serif;
     --second-font: 'Roboto', sans-serif;
 
     --main-text-color: white;
