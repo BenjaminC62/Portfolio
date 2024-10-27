@@ -2,7 +2,7 @@ import React from 'react'
 import linkedin  from './../../assets/icons/linkedin-icon.png'
 import github  from './../../assets/icons/github-icon.png'
 import instagram from './../../assets/icons/instagram-icon.png'
-import {NavbarProps} from './../../types/navData'
+import {NavbarProps} from '../../types/index'
 
 
 
