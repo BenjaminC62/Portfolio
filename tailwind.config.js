@@ -19,6 +19,18 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      width: {
+        124: "31rem",
+      },
+      height: {
+        124: "31rem",
+      },
+      borderRadius: {
+        50: "50%",
+      },
+      dropShadow: {
+        img: "0 0 25px var(--tw-shadow-color)",
+      },
     },
   },
   plugins: [
