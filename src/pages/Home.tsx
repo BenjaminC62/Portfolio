@@ -1,13 +1,10 @@
 import Navbar from '../components/Navbar/Navbar'
+import navData from './../components/Navbar/navData.json'
 
 function Home() {
   return (
     <div>
-      <Navbar data={[
-                { id: 1, title: 'About me', link: '#' },
-                { id: 2, title: 'Project', link: '#' },
-                { id: 3, title: 'Timeline', link: '#' }
-            ]} />
+      <Navbar data={navData}/>
     </div>
   )
 }
