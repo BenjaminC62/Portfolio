@@ -2,8 +2,6 @@ import React from 'react'
 
 import {NavbarProps} from '../../types/index'
 
-
-
 const Navbar: React.FC<NavbarProps> = ({ data }) => {
 
     return (

@@ -8,7 +8,7 @@ export default {
       colors: {
         background: "#080808",
         text: "#00ffee",
-        main: "#131313",
+        main: "#0A0A0A",
       },
       textShadow: {
         sm: "0 1px 2px var(--tw-shadow-color)",
@@ -20,10 +20,10 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       width: {
-        124: "31rem",
+        124: "40rem",
       },
       height: {
-        124: "31rem",
+        124: "40rem",
       },
       borderRadius: {
         50: "50%",
