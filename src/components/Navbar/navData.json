@@ -1,5 +1,12 @@
-[
-    { "id": 2, "title": "Project", "link": "#" },
-    { "id": 3, "title": "Timeline", "link": "#" },
-    {"id": 4, "title": "Contact", "link": "#"}
-]
+{
+    "name": "Cornet",
+    "lastName": "Benjamin",
+    "firstPage": "About me",
+    "navList" : [
+        { "id": 2, "title": "Project", "link": "#" },
+        { "id": 3, "title": "Timeline", "link": "#" },
+        {"id": 4, "title": "Contact", "link": "#"}
+    ]
+}
+
+

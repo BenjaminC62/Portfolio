@@ -5,7 +5,7 @@ import navData from './../components/Navbar/navData.json'
 function Home() {
   return (
     <>
-      <Navbar data={navData}/>
+      <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName} firstPage={navData.firstPage} />
       <HeroSection />
     </>
   )

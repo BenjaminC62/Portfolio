@@ -1,9 +1,11 @@
+import ButtonHeroSection from './HeroSectionButton/HeroSectionButton';
 import dataHeroSection from './heroData.json';
 import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
+import HeroSectionLinks from './LinksHeroSection/HeroSectionLinks';
 
 const HeroSection = () => {
   return (
-    <main className=" text-white">
+    <main className="text-white">
         <section className="container mx-auto flex items-center">
             <article className="flex justify-between items-center w-full mt-20">
                 <div>
@@ -14,8 +16,9 @@ const HeroSection = () => {
                     <h2 className="text-4xl font-bold mb-8">{dataHeroSection.subtitle}</h2>
                     <p className="text-lg font-semibold w-124">{dataHeroSection.description}</p>
                 </div>
-                
                 <HeroSectionImage />
+                <HeroSectionLinks />
+                <ButtonHeroSection />
             </article>
         </section>
     </main>

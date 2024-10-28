@@ -1,3 +1,4 @@
 export * from './HeroSection';
-export * from './ButtonHeroSection';
+export * from './HeroSectionButton';
 export * from './HeroSectionImage';
+export * from './LinksHeroSection';
