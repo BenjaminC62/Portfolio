@@ -5,7 +5,7 @@ import HeroSectionLinks from './LinksHeroSection/HeroSectionLinks';
 
 const HeroSection = () => {
   return (
-    <main className="text-white">
+    <main className="text-white font-poppins">
         <section className="container mx-auto flex items-center">
             <article className="flex justify-between items-center w-full mt-20">
                 <div>

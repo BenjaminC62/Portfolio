@@ -1,10 +1,9 @@
-import Home from './pages/Home'
-
+import { Outlet } from "react-router"
 
 function App() {
   return (
     <>
-      <Home />
+      <Outlet />
     </>
   )
 }
