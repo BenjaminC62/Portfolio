@@ -9,6 +9,7 @@ function Home() {
       <SideNav data={navData.navList} name={navData.name} lastName={navData.lastName} firstPage={navData.firstPage} homeIcon={navData.homeIcon} />
       <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName} firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
       <HeroSection />
+      <span className='absolute bottom-0 left-1/2 text-white font-poppins'>© 2024 - Cornet Benjamin</span>
     </>
   )
 }
