@@ -2,11 +2,12 @@
     "name": "Cornet",
     "lastName": "Benjamin",
     "firstPage": "Home",
+    "homeIcon": "/src/assets/icons/home-icon-blue.png",
     "navList" : [
-        { "id": 2, "title": "About me", "link": "/aboutme" },
-        { "id": 3, "title": "Projects", "link": "/projects" },
-        {"id": 4, "title": "Skills", "link": "/skills"},
-        {"id": 5, "title": "Contact", "link": "/contact"}
+        { "id": 2, "title": "About me", "link": "/aboutme", "image": "/src/assets/icons/about-me-icon.png" },
+        { "id": 3, "title": "Projects", "link": "/projects", "image": "/src/assets/icons/projects-icon.png" },
+        {"id": 4, "title": "Skills", "link": "/skills", "image": "/src/assets/icons/skills-icon.png"},
+        {"id": 5, "title": "Contact", "link": "/contact", "image": "/src/assets/icons/mail-icon.png"}
     ]
 }
 

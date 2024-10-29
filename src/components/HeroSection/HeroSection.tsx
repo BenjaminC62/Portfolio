@@ -1,7 +1,6 @@
 import ButtonHeroSection from './HeroSectionButton/HeroSectionButton';
 import dataHeroSection from './heroData.json';
 import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
-import HeroSectionLinks from '../Navbar/LinksNavBar/NavBarLinks';
 
 const HeroSection = () => {
   return (
