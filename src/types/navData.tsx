@@ -12,3 +12,7 @@ export type NavbarProps = {
     firstPage: string,
     homeIcon: string;
 };
+
+export type arrow = {
+    upArrow: string,
+}
