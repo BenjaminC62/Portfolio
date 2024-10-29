@@ -1,13 +1,13 @@
 import ButtonHeroSection from './HeroSectionButton/HeroSectionButton';
 import dataHeroSection from './heroData.json';
 import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
-import HeroSectionLinks from './LinksHeroSection/HeroSectionLinks';
+import HeroSectionLinks from '../Navbar/LinksNavBar/NavBarLinks';
 
 const HeroSection = () => {
   return (
     <main className="text-white font-poppins">
         <section className="container mx-auto flex items-center">
-            <article className="flex justify-between items-center w-full mt-20">
+            <article className="flex justify-between items-center w-full mt-20 mr-20">
                 <div>
                     <div className='flex gap-4 mb-3'>
                         <h1 className="text-7xl font-bold">{dataHeroSection.nom}</h1>
@@ -15,10 +15,9 @@ const HeroSection = () => {
                     </div>
                     <h2 className="text-4xl font-bold mb-8">{dataHeroSection.subtitle}</h2>
                     <p className="text-lg font-semibold w-124">{dataHeroSection.description}</p>
+                    <ButtonHeroSection />
                 </div>
                 <HeroSectionImage />
-                <HeroSectionLinks />
-                <ButtonHeroSection />
             </article>
         </section>
     </main>

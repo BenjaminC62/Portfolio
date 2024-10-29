@@ -31,6 +31,9 @@ export default {
       dropShadow: {
         img: "0 0 25px var(--tw-shadow-color)",
       },
+      ringOffsetColor: {
+        primary: "#0A0A0A",
+      },
     },
   },
   plugins: [
