@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import { arrow } from '../../../types/navData';
+import cv from '../../../assets/Cv cornet benjamin Portfolio.pdf';
 
 const NavButtonCV: React.FC<arrow> = ({ upArrow }) => {
   return (
     <div className="relative inline-block font-poppins">
-      <Link to="" target="_blank">
+      <Link to={cv} target="_blank" title="CV Cornet Benjamin" >
         <input
           type="button"
           value="CV"
