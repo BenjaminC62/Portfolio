@@ -5,6 +5,11 @@ import navData from './../components/Navbar/navData.json';
 import ScrollIndicator from '../components/ScrollIndicator/ScrollIndicator';
 
 
+/**
+ *  Home component, this is a functional component which is the home page of the website
+ * 
+ * @returns 
+ */
 function Home() {
   return (
     <main className="text-white font-poppins">

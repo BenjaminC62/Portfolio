@@ -1,4 +1,9 @@
 
+/**
+ * Contact page, where user can contact the website owner.
+ * 
+ * @returns 
+ */
 const Contact = () => {
   return (
     <div>

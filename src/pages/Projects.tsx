@@ -1,4 +1,9 @@
 
+/**
+ *  My Projects Page, where I showcase my projects
+ * 
+ * @returns 
+ */
 const Projects = () => {
   return (
     <div>
