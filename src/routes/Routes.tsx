@@ -6,6 +6,9 @@ import Projects from '../pages/Projects'
 import Contact from '../pages/Contact'
 import Skills from '../pages/Skills'
 
+/**
+ * A router that defines the routes for the app
+ */
 export const router = createBrowserRouter([
     {
         path: '/',

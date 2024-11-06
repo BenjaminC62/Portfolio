@@ -1,3 +1,7 @@
+/**
+ * Different types of data that are used in the Navbar component
+ */
+
 export type dataItems = {
         id: number,
         title: string,
