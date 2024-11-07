@@ -2,6 +2,11 @@ import ButtonHeroSection from './HeroSectionButton/HeroSectionButton';
 import dataHeroSection from './heroData.json';
 import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
 
+/**
+ *  HeroSection component 
+ * 
+ * @returns  HeroSection component
+ */
 const HeroSection = () => {
   return (
     <section className="container mx-auto flex items-center">
