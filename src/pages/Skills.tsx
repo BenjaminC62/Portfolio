@@ -1,4 +1,8 @@
-
+/**
+ * The main part where the skills are displayed
+ * 
+ * @returns 
+ */
 const Skills = () => {
   return (
     <div>
