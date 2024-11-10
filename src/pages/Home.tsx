@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar'
 import SideNav from '../components/Navbar/SideNav/SideNav';
 import navData from './../components/Navbar/navData.json';
 import ScrollIndicator from '../components/ScrollIndicator/ScrollIndicator';
+import AboutMe from './AboutMe';
 
 
 /**
@@ -17,6 +18,7 @@ function Home() {
       <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName} firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
       <HeroSection />
       <ScrollIndicator />
+      <AboutMe />
     </main>
   )
 }
