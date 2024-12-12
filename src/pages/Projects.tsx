@@ -1,15 +1,14 @@
-
 /**
  *  My Projects Page, where I showcase my projects
- * 
- * @returns 
+ *
+ * @returns
  */
 const Projects = () => {
-  return (
-    <div>
-      <p>test2</p>
-    </div>
-  )
+    return (
+        <>
+            <p>test2</p>
+        </>
+    )
 }
 
 export default Projects

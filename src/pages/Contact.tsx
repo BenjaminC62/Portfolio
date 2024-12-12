@@ -1,15 +1,17 @@
+import Footer from "../components/Footer/Footer.tsx";
 
 /**
  * Contact page, where user can contact the website owner.
- * 
- * @returns 
+ *
+ * @returns
  */
 const Contact = () => {
-  return (
-    <div>
-      <p>test</p>
-    </div>
-  )
+    return (
+        <>
+            <p>test</p>
+            <Footer/>
+        </>
+    )
 }
 
 export default Contact

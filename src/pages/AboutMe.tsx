@@ -1,3 +1,5 @@
+import Footer from "../components/Footer/Footer.tsx";
+
 /**
  * AboutMe component, this is a functional component which talks about me
  *
@@ -5,8 +7,9 @@
  */
 const AboutMe = () => {
     return (
-        <div>
-        </div>
+        <>
+            <Footer/>
+        </>
 
     );
 }
