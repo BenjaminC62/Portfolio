@@ -4,6 +4,7 @@ import SideNav from '../components/Navbar/SideNav/SideNav';
 import navData from './../components/Navbar/navData.json';
 import ScrollIndicator from '../components/ScrollIndicator/ScrollIndicator';
 import {AboutSection} from "../components/AboutSection";
+import Footer from "../components/Footer/Footer.tsx";
 
 
 /**
@@ -13,15 +14,24 @@ import {AboutSection} from "../components/AboutSection";
  */
 function Home() {
     return (
-        <main className="text-white font-poppins">
-            <SideNav data={navData.navList} name={navData.name} lastName={navData.lastName}
-                     firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
-            <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName} firstPage={navData.firstPage}
-                    homeIcon={navData.homeIcon}/>
-            <HeroSection/>
-            <ScrollIndicator/>
-            <AboutSection/>
-        </main>
+        <>
+            <header>
+                <SideNav data={navData.navList} name={navData.name} lastName={navData.lastName}
+                         firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
+                <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
+                        firstPage={navData.firstPage}
+                        homeIcon={navData.homeIcon}/>
+            </header>
+            <main className="text-white font-poppins">
+                <HeroSection/>
+                <ScrollIndicator/>
+                <AboutSection/>
+            </main>
+            <footer>
+                <Footer/>
+            </footer>
+        </>
+
     )
 }
 
