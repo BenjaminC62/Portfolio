@@ -10,8 +10,8 @@ import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
 const HeroSection = () => {
     return (
         <section className="container mx-auto flex items-center">
-            <article className="flex justify-between items-center w-full mt-20 mr-20">
-                <div>
+            <article className="flex justify-between items-center w-full mr-20">
+                <div className="relative bottom-32">
                     <div className='flex gap-4 mb-3'>
                         <h1 className="text-7xl font-bold">{dataHeroSection.nom}</h1>
                         <h1 className="text-7xl font-bold text-text">{dataHeroSection.prenom}</h1>

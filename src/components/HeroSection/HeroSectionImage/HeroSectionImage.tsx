@@ -1,12 +1,13 @@
-import imageCV from './../../../assets/imageCV.png'
+import imageMe from './../../../assets/ClassicNoBG.png'
 import './HerSectionImage.css'
 
 const HeroSectionImage = () => {
-  return (
-    <div>
-      <img src={imageCV} alt="hero" className="w-124 h-124 object-cover rounded-50 drop-shadow-img shadow-text cursor-pointer brightness-95 pulse-animation" />
-    </div>
-  )
+    return (
+        <div>
+            <img src={imageMe} alt="hero"
+                 className="w-1000 h-1000 object-cover relative left-48 bottom-14 cursor-pointer brightness-95"/>
+        </div>
+    )
 }
 
 export default HeroSectionImage;
