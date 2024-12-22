@@ -1,0 +1,13 @@
+.scroll-container {
+
+
+}
+
+.scroll-section {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
