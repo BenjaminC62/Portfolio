@@ -3,10 +3,10 @@
  */
 
 export type dataItems = {
-        id: number,
-        title: string,
-        link: string,
-        image: string;
+    id: number,
+    title: string,
+    link: string,
+    image: string;
 };
 
 export type NavbarProps = {
@@ -19,4 +19,8 @@ export type NavbarProps = {
 
 export type arrow = {
     upArrow: string,
+}
+
+export interface HeroSectionImageProps {
+    imageBG?: string
 }
