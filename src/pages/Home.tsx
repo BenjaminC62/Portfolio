@@ -5,7 +5,7 @@ import navData from './../components/Navbar/navData.json';
 import Footer from "../components/Footer/Footer.tsx";
 import ScrollIndicator from "../components/ScrollIndicator/ScrollIndicator.tsx";
 import {useEffect} from "react";
-import Skills from "./Skills.tsx";
+import SkillsSection from "../components/SkillsSection/SkillsSection.tsx";
 
 /**
  *  Home component, this is a functional component which is the home page of the website
@@ -52,7 +52,7 @@ function Home() {
                 </section>
                 <ScrollIndicator/>
                 <section className="container mx-auto m-40 about-section" id="scroll-section">
-                    <Skills/>
+                    <SkillsSection/>
                 </section>
             </main>
             <footer>

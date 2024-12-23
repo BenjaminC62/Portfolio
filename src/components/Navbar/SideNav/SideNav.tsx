@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import {motion} from "framer-motion";
-import {NavbarProps} from "../../../types/navData";
+import {NavbarProps} from "../../../types";
 
 const SideNav: React.FC<NavbarProps> = ({data, firstPage, homeIcon}) => {
     const [isOpen, setIsOpen] = useState(false);

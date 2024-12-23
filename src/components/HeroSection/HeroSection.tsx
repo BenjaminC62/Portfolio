@@ -2,6 +2,7 @@ import ButtonHeroSection from './HeroSectionButton/HeroSectionButtonAbout.tsx';
 import dataHeroSection from './heroData.json';
 import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
 import './../../styles/animScroll.css'
+import heroButton from './HeroSectionButton/heroButton.json'
 
 /**
  *  HeroSection component
@@ -20,7 +21,7 @@ const HeroSection = () => {
                     </div>
                     <h2 className="text-4xl font-bold mb-8">{dataHeroSection.subtitle}</h2>
                     <p className="text-lg text-gray-300 w-124">{dataHeroSection.description}</p>
-                    <ButtonHeroSection/>
+                    <ButtonHeroSection title={heroButton.title} subtitle={heroButton.subtitle}/>
                 </div>
                 <HeroSectionImage/>
             </article>

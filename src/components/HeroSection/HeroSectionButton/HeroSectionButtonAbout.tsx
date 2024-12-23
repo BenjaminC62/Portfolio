@@ -1,12 +1,13 @@
 import playButton from './../../../assets/icons/play-button-icon.png'
 import {Link} from "react-router-dom";
+import {HeroSectionButtonProps} from '../../../types';
 
 /**
  * Button, that show my projects
  *
  * @returns Button, that show my projects
  */
-const ButtonHeroSection = () => {
+const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) => {
     return (
         <div className="relative bottom-[-10rem] flex items-center justify-center">
             <Link
@@ -20,9 +21,9 @@ const ButtonHeroSection = () => {
                 }}
             />
             <div className="ml-8 font-poppins text-shadow-name flex flex-col justify-center">
-                <p className="text-xl mx-auto font-semibold">About me</p>
+                <p className="text-xl mx-auto font-semibold">{title}</p>
                 <hr className="border-text my-1"/>
-                <p className="text-lg text-text font-semibold">Discover more about me</p>
+                <p className="text-lg text-text font-semibold">{subtitle}</p>
             </div>
         </div>
     )

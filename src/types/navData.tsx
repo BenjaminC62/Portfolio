@@ -24,3 +24,8 @@ export type arrow = {
 export interface HeroSectionImageProps {
     imageBG?: string
 }
+
+export interface HeroSectionButtonProps {
+    title: string,
+    subtitle: string
+}
