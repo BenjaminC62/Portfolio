@@ -1,6 +1,7 @@
 import ButtonHeroSection from './HeroSectionButton/HeroSectionButton';
 import dataHeroSection from './heroData.json';
 import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
+import './../../styles/animScroll.css'
 
 /**
  *  HeroSection component
@@ -9,7 +10,7 @@ import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
  */
 const HeroSection = () => {
     return (
-        <section className="container mx-auto flex items-center">
+        <>
             <article className="flex justify-between items-center w-full mr-20">
                 <div className="relative bottom-32">
                     <div className='flex gap-4 mb-3'>
@@ -22,7 +23,7 @@ const HeroSection = () => {
                 </div>
                 <HeroSectionImage/>
             </article>
-        </section>
+        </>
     );
 };
 
