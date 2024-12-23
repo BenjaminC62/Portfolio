@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({name, lastName}) => {
         <>
             <nav>
                 <div className=' bg-main backdrop-blur'>
-                    <div className='mt-8 mx-auto flex justify-between items-center'>
+                    <div className='mx-auto flex justify-between items-center'>
                         <div className='font-bold text-4xl'>
                             <Link to="/" className='text-white'>{name}</Link>
                             <Link to="/" className='mx-2 text-text text-shadow-name shadow-text'>{lastName}</Link>

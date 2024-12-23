@@ -1,5 +1,3 @@
-import Footer from "../components/Footer/Footer.tsx";
-
 /**
  * The main part where the skills are displayed
  *
@@ -8,7 +6,7 @@ import Footer from "../components/Footer/Footer.tsx";
 const Skills = () => {
     return (
         <>
-            <Footer/>
+            <div>sdfds</div>
         </>
     )
 }

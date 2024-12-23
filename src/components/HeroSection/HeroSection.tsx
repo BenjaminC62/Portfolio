@@ -1,4 +1,4 @@
-import ButtonHeroSection from './HeroSectionButton/HeroSectionButton';
+import ButtonHeroSection from './HeroSectionButton/HeroSectionButtonAbout.tsx';
 import dataHeroSection from './heroData.json';
 import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
 import './../../styles/animScroll.css'
