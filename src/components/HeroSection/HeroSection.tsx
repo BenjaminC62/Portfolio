@@ -13,7 +13,7 @@ const HeroSection = () => {
         <>
 
             <article className="flex justify-between items-center w-full mr-20">
-                <div className="relative bottom-32">
+                <div className="relative bottom-14">
                     <div className='flex gap-4 mb-3'>
                         <h1 className="text-7xl font-bold">{dataHeroSection.nom}</h1>
                         <h1 className="text-7xl font-bold text-text">{dataHeroSection.prenom}</h1>

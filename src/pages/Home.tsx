@@ -5,6 +5,7 @@ import navData from './../components/Navbar/navData.json';
 import {AboutSection} from "../components/AboutSection";
 import Footer from "../components/Footer/Footer.tsx";
 import ScrollIndicator from "../components/ScrollIndicator/ScrollIndicator.tsx";
+import {useEffect} from "react";
 
 /**
  *  Home component, this is a functional component which is the home page of the website
@@ -12,6 +13,27 @@ import ScrollIndicator from "../components/ScrollIndicator/ScrollIndicator.tsx";
  * @returns
  */
 function Home() {
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutSection = document.querySelector('.about-section');
+            const scrollTop = window.scrollY;
+            // @ts-ignore
+            const aboutOffsetTop = aboutSection.offsetTop;
+            // @ts-ignore
+            const aboutHeight = aboutSection.offsetHeight;
+
+            if (scrollTop >= aboutOffsetTop && scrollTop < aboutOffsetTop + aboutHeight) {
+                document.documentElement.classList.add('no-scroll-snap');
+            } else {
+                document.documentElement.classList.remove('no-scroll-snap');
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+
     return (
         <>
             <header>
@@ -27,7 +49,7 @@ function Home() {
                     <HeroSection/>
                 </section>
                 <ScrollIndicator/>
-                <section className="container mx-auto m-40" id="scroll-section">
+                <section className="container mx-auto m-40 about-section" id="scroll-section">
                     <AboutSection/>
                 </section>
             </main>

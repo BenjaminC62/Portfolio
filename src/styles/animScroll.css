@@ -2,3 +2,7 @@
     scroll-snap-align: start;
     height: 100vh;
 }
+
+.no-scroll-snap {
+    scroll-snap-type: none;
+}
