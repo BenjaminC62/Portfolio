@@ -21,11 +21,11 @@ export default {
             },
             width: {
                 124: "40rem",
-                1000: "62rem"
+                1000: "52rem"
             },
             height: {
                 124: "40rem",
-                1000: "62rem"
+                1000: "52rem"
             },
             borderRadius: {
                 50: "50%",

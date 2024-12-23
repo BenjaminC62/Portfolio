@@ -1,6 +1,6 @@
 .scroll-indicator {
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    bottom: 37px;
     left: 50%;
     transform: translateX(-50%);
     width: 24px;
