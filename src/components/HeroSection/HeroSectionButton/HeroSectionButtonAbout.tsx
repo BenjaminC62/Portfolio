@@ -11,7 +11,7 @@ const ButtonHeroSection = () => {
         <div className="relative bottom-[-10rem] flex items-center justify-center">
             <Link
                 to="/aboutme"
-                className="flex items-center justify-center w-[8rem] h-[8rem] bg-[#00d8e6] text-white font-bold rounded-50 cursor-pointer"
+                className="flex items-center justify-center w-[6rem] h-[6rem] bg-[#00d8e6] text-white font-bold rounded-50 cursor-pointer animate-pulse"
                 style={{
                     backgroundImage: `url(${playButton})`,
                     backgroundSize: '3rem 3rem',
@@ -19,10 +19,10 @@ const ButtonHeroSection = () => {
                     backgroundPosition: 'center'
                 }}
             />
-            <div className="ml-8 font-poppins text-shadow-name">
-                <p className="text-text">About me</p>
-                <hr className="border-text"/>
-                <p className="text-text">Discover more about me</p>
+            <div className="ml-8 font-poppins text-shadow-name flex flex-col justify-center">
+                <p className="text-xl mx-auto font-semibold">About me</p>
+                <hr className="border-text my-1"/>
+                <p className="text-lg text-text font-semibold">Discover more about me</p>
             </div>
         </div>
     )

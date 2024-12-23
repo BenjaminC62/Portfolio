@@ -19,7 +19,7 @@ const HeroSection = () => {
                         <h1 className="text-7xl font-bold text-text">{dataHeroSection.prenom}</h1>
                     </div>
                     <h2 className="text-4xl font-bold mb-8">{dataHeroSection.subtitle}</h2>
-                    <p className="text-lg font-semibold w-124">{dataHeroSection.description}</p>
+                    <p className="text-lg text-gray-300 w-124">{dataHeroSection.description}</p>
                     <ButtonHeroSection/>
                 </div>
                 <HeroSectionImage/>
