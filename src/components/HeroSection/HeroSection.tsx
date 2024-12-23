@@ -11,6 +11,7 @@ import './../../styles/animScroll.css'
 const HeroSection = () => {
     return (
         <>
+
             <article className="flex justify-between items-center w-full mr-20">
                 <div className="relative bottom-32">
                     <div className='flex gap-4 mb-3'>
@@ -23,6 +24,7 @@ const HeroSection = () => {
                 </div>
                 <HeroSectionImage/>
             </article>
+
         </>
     );
 };

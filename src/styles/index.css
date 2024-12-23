@@ -25,5 +25,7 @@
     box-sizing: border-box;
 }
 
-
-
+html, body {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}

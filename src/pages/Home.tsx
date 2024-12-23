@@ -17,16 +17,17 @@ function Home() {
             <header>
                 <SideNav data={navData.navList} name={navData.name} lastName={navData.lastName}
                          firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
-                <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
-                        firstPage={navData.firstPage}
-                        homeIcon={navData.homeIcon}/>
+
             </header>
             <main className="text-white font-poppins">
-                <section className="container mx-auto flex items-center" id="scroll-section">
+                <section className="container mx-auto" id="scroll-section">
+                    <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
+                            firstPage={navData.firstPage}
+                            homeIcon={navData.homeIcon}/>
                     <HeroSection/>
                 </section>
                 <ScrollIndicator/>
-                <section className="container mx-auto m-40 h-screen" id="scroll-section">
+                <section className="container mx-auto m-40" id="scroll-section">
                     <AboutSection/>
                 </section>
             </main>
