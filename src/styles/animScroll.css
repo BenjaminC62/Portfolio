@@ -4,5 +4,5 @@
 }
 
 .no-scroll-snap {
-    scroll-snap-type: none;
+    scroll-snap-type: none !important;
 }
