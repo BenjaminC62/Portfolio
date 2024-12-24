@@ -42,7 +42,7 @@ function Home() {
 
             </header>
             <main className="text-white font-poppins">
-                <section className="container mx-auto" id="scroll-section">
+                <section className="container mx-auto " id="scroll-section">
                     {/*This is a hack to make the scroll-snap work*/}
                     <div className="mt-8 text-background invisible">space</div>
                     <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
