@@ -6,6 +6,7 @@ import navData from './../components/Navbar/navData.json';
 import Footer from "../components/Footer/Footer.tsx";
 import ScrollIndicator from "../components/ScrollIndicator/ScrollIndicator.tsx";
 import SkillsSection from "../components/SkillsSection/SkillsSection.tsx";
+import ProjectsSection from "../components/ProjectsSection/ProjectsSection.tsx";
 
 function Home() {
     const lastScrollTopRef = useRef(0);
@@ -56,6 +57,7 @@ function Home() {
                     <SkillsSection/>
                 </section>
                 <section className="container mx-auto skills-section" id="scroll-section">
+                    <ProjectsSection/>
                 </section>
             </main>
             <footer>
