@@ -6,6 +6,7 @@ const ProjectsSection = () => {
         <div>
             <ProjectsNav/>
             <ProjectsGridSingle/>
+
         </div>
     );
 };

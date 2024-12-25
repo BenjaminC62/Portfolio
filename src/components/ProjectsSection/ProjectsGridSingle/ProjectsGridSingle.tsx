@@ -10,8 +10,8 @@ const ProjectsGridSingle = () => {
                     <div
                         className="bg-[#1a1a1a] rounded-lg flex justify-center items-center"
                         style={{
-                            width: "30rem",  // Réduire la largeur de la carte
-                            height: "24rem", // Réduire la hauteur de la carte
+                            width: "31rem",
+                            height: "24rem",
                         }}
                     >
                         <img
@@ -19,15 +19,16 @@ const ProjectsGridSingle = () => {
                             alt="Project"
                             className="w-full h-full rounded-md"
                             style={{
-                                width: "28rem",  // Réduire la largeur de l'image
-                                height: "18rem", // Réduire la hauteur de l'image
-                                boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.5)",
+                                width: "29rem",
+                                height: "18rem",
+                                boxShadow: "10px 15px 30px rgba(0, 0, 0, 0.5)",
                             }}
                         />
                     </div>
                     <p className="font-semibold text-xl mt-4">Title</p>
                     <div className="flex items-center space-x-2 mt-4">
-                        <Link to="/view-more" className="text-text hover:underline">View more</Link>
+                        <Link to="/view-more" className="text-text hover:underline font-bold tracking-[0.2em]">View
+                            more</Link>
                         <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
                              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#00FFEE" width="24"
                              height="24">
@@ -43,8 +44,8 @@ const ProjectsGridSingle = () => {
                     <div
                         className="bg-[#1a1a1a] rounded-lg flex justify-center items-center"
                         style={{
-                            width: "30rem",  // Réduire la largeur de la carte
-                            height: "24rem", // Réduire la hauteur de la carte
+                            width: "31rem",
+                            height: "24rem",
                         }}
                     >
                         <img
@@ -52,15 +53,16 @@ const ProjectsGridSingle = () => {
                             alt="Project"
                             className="w-full h-full rounded-md"
                             style={{
-                                width: "28rem",  // Réduire la largeur de l'image
-                                height: "18rem", // Réduire la hauteur de l'image
-                                boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.5)",
+                                width: "29rem",
+                                height: "18rem",
+                                boxShadow: "10px 15px 30px rgba(0, 0, 0, 0.5)",
                             }}
                         />
                     </div>
                     <p className="font-semibold text-xl mt-4">Title</p>
                     <div className="flex items-center space-x-2 mt-4">
-                        <Link to="/view-more" className="text-text hover:underline">View more</Link>
+                        <Link to="/view-more" className="text-text hover:underline font-bold tracking-[0.2em]">View
+                            more</Link>
                         <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
                              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#00FFEE" width="24"
                              height="24">
@@ -76,7 +78,7 @@ const ProjectsGridSingle = () => {
                     <div
                         className="bg-[#1a1a1a] rounded-lg flex justify-center items-center"
                         style={{
-                            width: "30rem",  // Réduire la largeur de la carte
+                            width: "31rem",  // Réduire la largeur de la carte
                             height: "24rem", // Réduire la hauteur de la carte
                         }}
                     >
@@ -85,15 +87,16 @@ const ProjectsGridSingle = () => {
                             alt="Project"
                             className="w-full h-full rounded-md"
                             style={{
-                                width: "28rem",  // Réduire la largeur de l'image
-                                height: "18rem", // Réduire la hauteur de l'image
-                                boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.5)",
+                                width: "29rem",
+                                height: "18rem",
+                                boxShadow: "10px 15px 30px rgba(0, 0, 0, 0.5)",
                             }}
                         />
                     </div>
                     <p className="font-semibold text-xl mt-4">Title</p>
                     <div className="flex items-center space-x-2 mt-4">
-                        <Link to="/view-more" className="text-text hover:underline">View more</Link>
+                        <Link to="/view-more" className="text-text hover:underline font-bold tracking-[0.2em]">View
+                            more</Link>
                         <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
                              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#00FFEE" width="24"
                              height="24">
