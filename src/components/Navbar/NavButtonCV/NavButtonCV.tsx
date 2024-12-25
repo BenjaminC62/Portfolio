@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
-import {arrow} from '../../../types/navData';
+import {arrow} from '../../../types';
 import cv from '../../../assets/cv/Cv cornet benjamin Portfolio.pdf';
+import React from "react";
 
 const NavButtonCV: React.FC<arrow> = ({upArrow}) => {
     return (

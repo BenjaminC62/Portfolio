@@ -14,7 +14,7 @@ const SkillsSectionGrid = () => {
             <div className="relative p-4 flex flex-col items-center justify-center">
                 <div className="absolute inset-0 bg-gradient-to-t from-text to-transparent opacity-10"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="128" height="128" viewBox="0,0,256,256">
-                    <g fill="#00ffee" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    <g fill="#00ffee" stroke="none" stroke-linecap="butt"
                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
                        font-family="none" font-weight="none" font-size="none" text-anchor="none">
                         <g transform="scale(5.12,5.12)">

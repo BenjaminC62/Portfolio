@@ -1,6 +1,7 @@
 import playButton from './../../../assets/icons/play-button-icon.png'
 import {Link} from "react-router-dom";
 import {HeroSectionButtonProps} from '../../../types';
+import React from "react";
 
 /**
  * Button, that show my projects
