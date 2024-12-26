@@ -3,6 +3,5 @@
   "prenom": "Benjamin",
   "subtitle": "Je suis étudiant en informatique",
   "description": "Je suis un étudiant en informatique passionné par le développement web et mobile. J'aime apprendre de nouvelles technologies et les mettre en pratique dans des projets personnels.",
-  "button-cv": "CV",
-  "imageMoiNoBg": "src/assets/ClassicNoBG.png"
+  "button-cv": "CV"
 }

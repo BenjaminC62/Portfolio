@@ -1,12 +1,18 @@
 import {useEffect, useRef} from 'react';
+
+/* Json */
+import navData from './../components/Navbar/navData.json';
+import heroData from './../components/HeroSection/heroData.json'
+
+/* Components */
 import HeroSection from '../components/HeroSection/HeroSection';
 import Navbar from '../components/Navbar/Navbar';
 import SideNav from '../components/Navbar/SideNav/SideNav';
-import navData from './../components/Navbar/navData.json';
 import Footer from "../components/Footer/Footer.tsx";
 import ScrollIndicator from "../components/ScrollIndicator/ScrollIndicator.tsx";
 import SkillsSection from "../components/SkillsSection/SkillsSection.tsx";
 import ProjectsSection from "../components/ProjectsSection/ProjectsSection.tsx";
+
 
 function Home() {
     const lastScrollTopRef = useRef(0);
@@ -50,7 +56,8 @@ function Home() {
                     <div className="mt-8 text-background invisible">space</div>
                     <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
                             firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
-                    <HeroSection/>
+                    <HeroSection nom={heroData.nom} prenom={heroData.prenom} subtitle={heroData.subtitle}
+                                 description={heroData.description}/>
                 </section>
                 <ScrollIndicator/>
                 <section className="container mx-auto mt-40 about-section" id="scroll-section">
