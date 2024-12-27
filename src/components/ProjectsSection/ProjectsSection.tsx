@@ -1,6 +1,7 @@
 /* Json */
 import projectData from './ProjectsGridSingle/ProjectsGridSingle.json'
 import projectsNavData from './ProjectsNav/ProjectsNav.json'
+import contactData from './../Contact/ContactPart.json'
 
 /* Components */
 import ProjectsNav from "./ProjectsNav/ProjectsNav.tsx";
@@ -28,7 +29,8 @@ const ProjectsSection = () => {
                 <ProjectsGridSingle image={rosequartzspa} link={projectData.projet_3.link}
                                     title={projectData.projet_3.title} button_text={projectData.button_text}/>
             </div>
-            <ContactPart/>
+            <ContactPart title_section={contactData.title_section} text_contact={contactData.text_contact}
+                         button_text={contactData.button_text}/>
 
         </div>
     );
