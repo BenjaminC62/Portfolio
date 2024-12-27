@@ -1,6 +1,5 @@
-/* Types */
 /* Json */
-import projectData from './ProjectsSection.json';
+import projectData from './ProjectsGridSingle/ProjectsGridSingle.json'
 import projectsNavData from './ProjectsNav/ProjectsNav.json'
 
 /* Components */
@@ -10,6 +9,8 @@ import ContactPart from "../Contact/ContactPart.tsx";
 
 /* Images */
 import adventura from './../../assets/projects-images/Adventura.png'
+import bomberman from './../../assets/projects-images/BombermanProject.png'
+import rosequartzspa from './../../assets/projects-images/RoseQuartzSpa.png'
 
 
 const ProjectsSection = () => {
@@ -21,11 +22,11 @@ const ProjectsSection = () => {
                          button_text={projectsNavData.button_text}/>
             <div className="flex flex-row justify-between w-full">
                 <ProjectsGridSingle image={adventura} link={projectData.projet_1.link}
-                                    title={projectData.projet_1.title}/>
-                <ProjectsGridSingle image={projectData.projet_1.image} link={projectData.projet_1.link}
-                                    title={projectData.projet_1.title}/>
-                <ProjectsGridSingle image={projectData.projet_1.image} link={projectData.projet_1.link}
-                                    title={projectData.projet_1.title}/>
+                                    title={projectData.projet_1.title} button_text={projectData.button_text}/>
+                <ProjectsGridSingle image={bomberman} link={projectData.projet_2.link}
+                                    title={projectData.projet_2.title} button_text={projectData.button_text}/>
+                <ProjectsGridSingle image={rosequartzspa} link={projectData.projet_3.link}
+                                    title={projectData.projet_3.title} button_text={projectData.button_text}/>
             </div>
             <ContactPart/>
 

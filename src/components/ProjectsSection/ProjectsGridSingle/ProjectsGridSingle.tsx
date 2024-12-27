@@ -1,7 +1,10 @@
+/* Imports */
 import {Link} from "react-router-dom";
+
+/* Types */
 import {dateProjectsItems} from "./../../../types/ProjecsSectionsData.ts";
 
-const ProjectsGridSingle = ({image, title, link}: dateProjectsItems) => {
+const ProjectsGridSingle = ({image, title, link, button_text}: dateProjectsItems) => {
     return (
         <div
             className="bg-[#1a1a1a] rounded-lg flex flex-col justify-between items-center p-4 mt-16"
@@ -29,7 +32,7 @@ const ProjectsGridSingle = ({image, title, link}: dateProjectsItems) => {
                     to={link}
                     className="text-text hover:underline font-bold tracking-[0.2em]"
                 >
-                    View more
+                    {button_text}
                 </Link>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
