@@ -1,3 +1,10 @@
 {
-  "web": "Web Development"
+  "cat1": "Dev Web",
+  "cat1_desc": "Sites web interactifs et optimisés.",
+  "cat2": "Dev Application",
+  "cat2_desc": "Applications modernes et performantes.",
+  "cat3": "Développement de Jeux Vidéo",
+  "cat3_desc": "Conception d'univers ludiques immersifs.",
+  "cat4": "Gestion de base de données",
+  "cat4_desc": "Bases de données structurées et sécurisées."
 }
