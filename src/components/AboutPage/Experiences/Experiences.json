@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Développeur Front-End",
+    "company": "TechCorp",
+    "duration": "Janvier 2022 - Présent",
+    "description": "Développement d'applications web interactives en utilisant React et TypeScript."
+  },
+  {
+    "title": "Stagiaire Développeur",
+    "company": "WebSolutions",
+    "duration": "Juin 2021 - Décembre 2021",
+    "description": "Participation à la création de sites web et d'applications mobiles."
+  }
+]

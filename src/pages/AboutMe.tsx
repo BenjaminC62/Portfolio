@@ -2,6 +2,7 @@ import Footer from "../components/Footer/Footer.tsx";
 import navData from "../components/Navbar/navData.json";
 import Navbar from "../components/Navbar/Navbar.tsx";
 import WhoIAm from "../components/AboutPage/WhoIAm/WhoIAm.tsx";
+import Experiences from "../components/AboutPage/Experiences/Experiences.tsx";
 
 /**
  * AboutMe component, this is a functional component which talks about me
@@ -18,6 +19,7 @@ const AboutMe = () => {
                 </header>
                 <main className="flex-grow">
                     <WhoIAm/>
+                    <Experiences/>
                 </main>
                 <footer>
                     <Footer/>

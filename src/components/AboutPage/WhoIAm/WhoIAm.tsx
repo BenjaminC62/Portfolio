@@ -12,14 +12,14 @@ const WhoIAm = () => {
             <div className="relative z-10 mt-8">
                 <h1 className="text-7xl font-bold text-white mb-12">Qui je suis ?</h1>
                 <p className="text-lg text-gray-300 mb-8">
-                    Bienvenue ! Je suis Cornet Benjamin, passionné de développement web et de design interactif. Ce
-                    portfolio est une vitrine de mes compétences, de mes projets, et de ma vision : transformer des
-                    idées en expériences numériques engageantes.
+                    Je suis Cornet Benjamin, un développeur qui a comme passion le code et l'innovation. À
+                    travers mes études en informatique et mes projets personnels, je cherche à construire un avenir où
+                    la technologie simplifie et enrichit nos vies.
                 </p>
                 <ul className="list-none space-y-8 text-white">
                     <li><strong>Nom:</strong> Cornet Benjamin</li>
                     <li><strong>Date de naissance:</strong> 18 novembre 2005</li>
-                    <li><strong>Téléphone:</strong>(+33) 7 82 57 88 32</li>
+                    <li><strong>Téléphone:</strong> (+33) 7 82 57 88 32</li>
                     <li><strong>Alentour:</strong> Lens, France</li>
                 </ul>
             </div>
