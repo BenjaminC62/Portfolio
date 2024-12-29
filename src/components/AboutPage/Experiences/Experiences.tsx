@@ -1,13 +1,17 @@
+/* Tpyes */
+import {ExperiencesType} from "../../../types/Experiences.ts";
+
+/* Json Data */
 import experiences from './Experiences.json';
 
 const Experiences = () => {
     return (
         <section className="container mx-auto my-12 p-8">
             <h2 className="text-4xl font-bold text-gray-300 text-center mb-12 underline decoration-[#00FFEE]">
-                Expériences Professionnelles
+                Expériences & Formations
             </h2>
             <div className="space-y-8">
-                {experiences.map((exp, index) => (
+                {experiences.map((exp: ExperiencesType, index) => (
                     <div
                         key={index}
                         className="relative group p-6 bg-[#1a1a1a] rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"

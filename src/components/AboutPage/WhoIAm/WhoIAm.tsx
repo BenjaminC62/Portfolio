@@ -12,9 +12,9 @@ const WhoIAm = () => {
             <div className="relative z-10 mt-8">
                 <h1 className="text-7xl font-bold text-white mb-12">Qui je suis ?</h1>
                 <p className="text-lg text-gray-300 mb-8">
-                    Je suis Cornet Benjamin, un développeur qui a comme passion le code et l'innovation. À
-                    travers mes études en informatique et mes projets personnels, je cherche à construire un avenir où
-                    la technologie simplifie et enrichit nos vies.
+                    Je suis Cornet Benjamin, je suis un étudiant en deuxieme année de BUT Informatique à l'iut de lens.
+                    J'ai découvrir et aprèndes de nouvelles technologies,
+                    À travers mes études et mes projets personnels, j'ai pu acquérir des compétences en informatique.
                 </p>
                 <ul className="list-none space-y-8 text-white">
                     <li><strong>Nom:</strong> Cornet Benjamin</li>

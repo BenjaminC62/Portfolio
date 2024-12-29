@@ -1,14 +1,26 @@
 [
   {
-    "title": "Développeur Front-End",
-    "company": "TechCorp",
-    "duration": "Janvier 2022 - Présent",
-    "description": "Développement d'applications web interactives en utilisant React et TypeScript."
+    "title": "Formation Développement de jeux vidéo avec Unity",
+    "company": "Udemy",
+    "duration": "Decembre 2024 - Présent",
+    "description": "Apprentissage des concepts fondamentaux du développement de jeux vidéo, notamment la manipulation du moteur Unity, la programmation en C#, et la création de jeux interactifs en 2D et 3D."
   },
   {
-    "title": "Stagiaire Développeur",
-    "company": "WebSolutions",
-    "duration": "Juin 2021 - Décembre 2021",
-    "description": "Participation à la création de sites web et d'applications mobiles."
+    "title": "BUT Informatique",
+    "company": "IUT de Lens",
+    "duration": "Septembre 2023 - Présent",
+    "description": "Formation axée sur le développement logiciel, incluant la programmation en Java, Python, et PHP, la gestion de bases de données MySQL, ainsi que la conception d'applications web et mobiles. Participation à des projets collaboratifs et apprentissage des méthodes agiles."
+  },
+  {
+    "title": "Baccalauréat Général",
+    "company": "Lycée Albert Châtelet",
+    "duration": "Septembre 2022 - Juillet 2023",
+    "description": "Obtention du baccalauréat avec une spécialité en Mathématiques et Numérique & Sciences Informatiques. Développement de projets simples en programmation et initiation à la logique algorithmique."
+  },
+  {
+    "title": "Stage d'observation en service informatique",
+    "company": "ALKERN",
+    "duration": "avr. 2019 - avr. 2019 · 1 mois",
+    "description": "Découverte du fonctionnement d'un service informatique en entreprise. Observation des processus de maintenance réseau et des outils de gestion informatique. Participation à des tâches simples de configuration et d'assistance technique."
   }
 ]

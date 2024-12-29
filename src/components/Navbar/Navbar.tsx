@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = ({name, lastName}) => {
     return (
         <>
             <nav>
-                <div className=' bg-main backdrop-blur'>
+                <div className='bg-main backdrop-blur'>
                     <div className='mx-auto flex justify-between items-center'>
                         <div className='font-bold text-4xl'>
                             <Link to="/" className='text-white'>{name}</Link>

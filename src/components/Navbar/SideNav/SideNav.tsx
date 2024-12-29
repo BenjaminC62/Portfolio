@@ -28,7 +28,7 @@ const SideNav: React.FC<NavbarProps> = ({data, firstPage, homeIcon}) => {
 
     return (
         <motion.div
-            className="fixed bottom-8 right-8 z-50 bg-gray-800 text-white shadow-lg overflow-hidden"
+            className="fixed bottom-8 right-8 z-50 bg-gray-800 text-white shadow-lg overflow-hidden "
             initial="closed"
             animate={isOpen ? "open" : "closed"}
             variants={bubbleVariants}
