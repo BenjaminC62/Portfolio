@@ -3,19 +3,19 @@
     "title": "Adventura",
     "description": "Description du projet 1",
     "image": "./../../../assets/projects-images/Adventura.png",
-    "link": "/adventura"
+    "link": "/projects/Adventura"
   },
   "projet_2": {
     "title": "Bomberman",
     "description": "Description du projet 1",
     "image": "./../../../assets/projects-images/Bomber.png",
-    "link": "/adventura"
+    "link": "/projects/bomberman"
   },
   "projet_3": {
     "title": "RoseQuartz-Spa",
     "description": "Description du projet 1",
     "image": "./../../../assets/projects-images/RoseQuartz-Spa.png",
-    "link": "/RoseQuartz-Spa"
+    "link": "/projects/RoseQuartz-Spa"
   },
   "button_text": "Voir le projet"
 }
