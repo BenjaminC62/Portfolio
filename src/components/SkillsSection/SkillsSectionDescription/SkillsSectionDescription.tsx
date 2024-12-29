@@ -2,7 +2,7 @@
 import {SkillsDescriptionSectionData} from "../../../types/SkillsDescriptionSectionData.ts";
 
 /* Imports */
-import {Link} from "react-router-dom";
+import {HashLink} from 'react-router-hash-link';
 
 /* Css */
 import './../../HeroSection/HeroSectionImage/HerSectionImage.css'
@@ -34,8 +34,8 @@ const SkillsSectionDescription = ({
             <span className="mt-4 text-gray-300">
                 {text_4}
             </span>
-            <Link to="/skills"
-                  className="mt-8 px-4 py-2 bg-[#00d8e6] w-60 text-white rounded text-center pulse-animation">{button_text}</Link>
+            <HashLink to="/skills#top"
+                      className="mt-8 px-4 py-2 bg-[#00d8e6] w-60 text-white rounded text-center pulse-animation">{button_text}</HashLink>
         </div>
     );
 };
