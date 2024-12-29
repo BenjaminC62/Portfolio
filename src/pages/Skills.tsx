@@ -1,3 +1,9 @@
+import Navbar from "../components/Navbar/Navbar.tsx";
+import navData from "../components/Navbar/navData.json";
+import Footer from "../components/Footer/Footer.tsx";
+import SkillsGrid from "../components/SkillsPage/SkillsGrid.tsx";
+
+
 /**
  * The main part where the skills are displayed
  *
@@ -5,9 +11,18 @@
  */
 const Skills = () => {
     return (
-        <>
-            <div>sdfds</div>
-        </>
+        <div className="flex flex-col min-h-screen">
+            <header className="mt-4 mx-auto container">
+                <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
+                        firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
+            </header>
+            <main className="flex-grow">
+                <SkillsGrid/>
+            </main>
+            <footer>
+                <Footer/>
+            </footer>
+        </div>
     )
 }
 
