@@ -2,6 +2,7 @@ import playButton from './../../../assets/icons/play-button-icon.png'
 import {Link} from "react-router-dom";
 import {HeroSectionButtonProps} from '../../../types';
 import React from "react";
+import {useTranslation} from "react-i18next";
 
 /**
  * Button, that show my projects
@@ -9,6 +10,8 @@ import React from "react";
  * @returns Button, that show my projects
  */
 const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) => {
+    const {t} = useTranslation();
+
     return (
         <div className="relative bottom-[-10rem] flex items-center justify-center">
             <Link
@@ -22,9 +25,9 @@ const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) 
                 }}
             />
             <div className="ml-8 font-poppins text-shadow-name flex flex-col justify-center">
-                <p className="text-xl mx-auto font-semibold">{title}</p>
+                <p className="text-xl mx-auto font-semibold">{t(title)}</p>
                 <hr className="border-text my-1"/>
-                <p className="text-lg text-text font-semibold">{subtitle}</p>
+                <p className="text-lg text-text font-semibold">{t(subtitle)}</p>
             </div>
         </div>
     )

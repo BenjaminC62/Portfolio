@@ -1,0 +1,29 @@
+{
+  "section": "Experiences & Trainings",
+  "experiences": [
+    {
+      "title": "Training in video game development with Unity",
+      "company": "Udemy",
+      "duration": "December 2024 - Now",
+      "description": "Learning the fundamental concepts of video game development, including the manipulation of the Unity engine, programming in C#, and the creation of interactive games in 2D and 3D."
+    },
+    {
+      "title": "Three-year university degree in technology",
+      "company": "IUT de Lens",
+      "duration": "September 2023 - Now",
+      "description": "Training focused on software development, including programming in Java, Python, and PHP, managing MySQL databases, as well as designing web and mobile applications. Participation in collaborative projects and learning agile methods."
+    },
+    {
+      "title": "French secondary school diploma",
+      "company": "Lycée Albert Châtelet",
+      "duration": "September 2022 - July 2023",
+      "description": "Obtained the French secondary school diploma with a specialization in Mathematics and Digital & Computer Science. Developed simple programming projects and initiated to algorithmic logic."
+    },
+    {
+      "title": "Internship in IT service observation",
+      "company": "ALKERN",
+      "duration": "April 2019 - April 2019 · 1 month",
+      "description": "Discovery of the operation of an IT service in a company. Observation of network maintenance processes and IT management tools. Participation in simple configuration and technical support tasks."
+    }
+  ]
+}

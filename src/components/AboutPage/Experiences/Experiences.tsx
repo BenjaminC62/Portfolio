@@ -2,16 +2,20 @@
 import {ExperiencesType} from "../../../types/Experiences.ts";
 
 /* Json Data */
-import experiences from '../../../locales/fr/Experiences.json';
+import {useTranslation} from "react-i18next";
 
 const Experiences = () => {
+    const {t} = useTranslation();
+
+    const exp = t('exp.experiences', {returnObjects: true}) as ExperiencesType[];
+
     return (
         <section className="container mx-auto my-12 p-8">
             <h2 className="text-4xl font-bold text-gray-300 text-center mb-12 underline decoration-[#00FFEE]">
-                Expériences & Formations
+                {t('exp.section')}
             </h2>
             <div className="space-y-8">
-                {experiences.map((exp: ExperiencesType, index) => (
+                {exp.map((exp: ExperiencesType, index: number) => (
                     <div
                         key={index}
                         className="relative group p-6 bg-[#1a1a1a] rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"

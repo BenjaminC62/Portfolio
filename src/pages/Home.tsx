@@ -2,7 +2,6 @@ import {useEffect, useRef} from 'react';
 
 /* Json */
 import navData from '../locales/fr/navData.json';
-import heroData from '../locales/fr/heroData.json'
 
 /* Components */
 import HeroSection from '../components/HeroSection/HeroSection';
@@ -59,8 +58,8 @@ function Home() {
                     <div className="mt-8 text-background invisible">space</div>
                     <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
                             firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
-                    <HeroSection nom={heroData.nom} prenom={heroData.prenom} subtitle={heroData.subtitle}
-                                 description={heroData.description}/>
+                    <HeroSection nom="hero.nom" description="hero.description" subtitle="hero.subtitle"
+                                 prenom="hero.prenom"/>
                 </section>
                 <ScrollIndicator/>
                 <section className="container mx-auto mt-40 about-section" id="scroll-section">

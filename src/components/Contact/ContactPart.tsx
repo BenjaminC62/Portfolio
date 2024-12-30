@@ -4,13 +4,6 @@ import {useTranslation} from "react-i18next";
 
 const ContactPart = ({title_section, text_contact, button_text}: ContactData) => {
     const {t} = useTranslation();
-    console.log("title_section:", title_section);
-    console.log("text_contact:", text_contact);
-    console.log("button_text:", button_text);
-    console.log("Translated title_section:", t(title_section));
-    console.log("Translated text_contact:", t(text_contact));
-    console.log("Translated button_text:", t(button_text));
-
 
     return (
         <div className="flex flex-col justify-center items-center mt-32 bg-[#1a1a1a] rounded-lg p-6 shadow-md">
