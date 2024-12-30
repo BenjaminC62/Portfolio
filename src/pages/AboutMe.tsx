@@ -18,7 +18,9 @@ const AboutMe = () => {
                             firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
                 </header>
                 <main className="flex-grow">
-                    <WhoIAm/>
+                    <WhoIAm nom='whoIAm.nom' title="whoIAm.title" adresse="whoIAm.adresse" bio="whoIAm.bio"
+                            date="whoIAm.date" letter="whoIAm.letter" tel="whoIAm.tel" adress_list='whoIAm.adress_list'
+                            date_list="whoIAm.date_list" name_list="whoIAm.name_list" tel_list="whoIAm.tel_list"/>
                     <Experiences/>
                 </main>
                 <footer>
