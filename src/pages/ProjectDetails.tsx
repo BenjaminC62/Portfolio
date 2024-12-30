@@ -3,14 +3,15 @@ import {projects} from './../components/ProjectsSection/projectsData.ts';
 import Navbar from "../components/Navbar/Navbar.tsx";
 import navData from "../components/Navbar/navData.json";
 import Footer from "../components/Footer/Footer.tsx";
-import {useState} from "react";
+import {SetStateAction, useState} from "react";
 
 const ProjectDetails = () => {
     const [selectedImage, setSelectedImage] = useState(null);
     const {title} = useParams<{ title: string }>();
     const project = projects.find((p) => p.title === title);
 
-    const openModal = (image) => {
+    const openModal = (image: string | SetStateAction<null>) => {
+        // @ts-ignore
         setSelectedImage(image);
     };
 
@@ -60,7 +61,7 @@ const ProjectDetails = () => {
                             </a>
                         </div>
                         <p className="text-gray-400 mb-4">
-                            <strong>Time Taken:</strong> {project.timeTaken}
+                            <strong>Durée :</strong> {project.timeTaken}
                         </p>
                         <p className="text-lg text-gray-300 leading-relaxed mb-6">
                             {project.intro}
@@ -69,13 +70,13 @@ const ProjectDetails = () => {
                             onClick={() => window.history.back()}
                             className="px-6 py-2 rounded bg-[#00FFEE] text-black font-semibold uppercase tracking-wider shadow-md hover:shadow-lg transition-all duration-300"
                         >
-                            Go Back
+                            Retourner en arrière
                         </button>
                     </div>
                 </div>
 
                 <div className="mt-12 max-w-6xl w-full bg-[#1a1a1a] p-8 rounded-lg shadow-lg">
-                    <h2 className="text-3xl font-bold text-[#00FFEE] mb-6">Project Details</h2>
+                    <h2 className="text-3xl font-bold text-[#00FFEE] mb-6">Détails du projet</h2>
                     <p className="text-lg text-gray-300 leading-relaxed mb-8">
                         {project.description}
                     </p>
@@ -87,7 +88,7 @@ const ProjectDetails = () => {
                                 src={image}
                                 alt={`Project Detail ${index + 1}`}
                                 className="w-full h-auto object-cover rounded-lg shadow-lg cursor-pointer"
-                                onClick={() => openModal(image)}  // Ouvre la modale au clic
+                                onClick={() => openModal(image)}
                             />
                         ))}
                     </div>

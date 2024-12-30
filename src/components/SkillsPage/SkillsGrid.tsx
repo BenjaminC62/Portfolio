@@ -26,7 +26,7 @@ import Jetbrain from './../../assets/icons-skills/Jetbrain.png';
 const SkillsGrid = () => {
     const categories = [
         {
-            title: "Web Development",
+            title: "Développement Web",
             skills: [
                 {name: "HTML", image: html},
                 {name: "CSS", image: css},
@@ -36,7 +36,7 @@ const SkillsGrid = () => {
             ],
         },
         {
-            title: "Application Development",
+            title: "Développment d'application",
             skills: [
                 {name: "Java", image: Java},
                 {name: "Python", image: Python},
@@ -44,7 +44,7 @@ const SkillsGrid = () => {
             ],
         },
         {
-            title: "Databases",
+            title: "Bases de données",
             skills: [
                 {name: "MySQL", image: MySql},
                 {name: "SQLite", image: SQlite},
@@ -52,7 +52,7 @@ const SkillsGrid = () => {
             ],
         },
         {
-            title: "Tools",
+            title: "Outils",
             skills: [
                 {name: "Git", image: Git},
                 {name: "VS Code", image: VsCode},
@@ -71,7 +71,7 @@ const SkillsGrid = () => {
     return (
         <div className="flex flex-col items-center min-h-screen text-white py-8">
             <h1 className="text-5xl font-extrabold mb-8 font-poppins text-transparent bg-clip-text bg-gradient-to-r from-[#00FFEE] to-[#2575fc] tracking-wide uppercase shadow-lg animate-gradientText hover:scale-105 hover:shadow-xl transition-all duration-500 ease-in-out">
-                My Skills
+                Mes compétences
             </h1>
             {categories.map((category, index) => (
                 <div key={index} className="mb-12 w-full max-w-[80rem]">
