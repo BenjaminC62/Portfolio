@@ -1,6 +1,6 @@
 /* Json */
-import skillsData from './SkillsSectionGrid/SkillsSectionGrid.json';
-import skillsDescData from './SkillsSectionDescription/SkillsSectionDescription.json'
+import skillsData from '../../locales/fr/SkillsSectionGrid.json';
+import skillsDescData from '../../locales/fr/SkillsSectionDescription.json'
 
 /* Components */
 import SkillsSectionGrid from "./SkillsSectionGrid/SkillsSectionGrid.tsx";

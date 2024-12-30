@@ -1,7 +1,6 @@
 /* Json */
 import projectData from './ProjectsGridSingle/ProjectsGridSingle.json'
 import projectsNavData from './ProjectsNav/ProjectsNav.json'
-import contactData from './../Contact/ContactPart.json'
 
 /* Components */
 import ProjectsNav from "./ProjectsNav/ProjectsNav.tsx";
@@ -13,8 +12,11 @@ import adventura from './../../assets/projects-images/Adventura.png'
 import bomberman from './../../assets/projects-images/BombermanProject.png'
 import rosequartzspa from './../../assets/projects-images/RoseQuartzSpa.png'
 
+/* i18n */
+
 
 const ProjectsSection = () => {
+
     return (
         <div id="top">
             <ProjectsNav title_section={projectsNavData.title_section}
@@ -29,9 +31,11 @@ const ProjectsSection = () => {
                 <ProjectsGridSingle image={rosequartzspa} link={projectData.projet_3.link}
                                     title={projectData.projet_3.title} button_text={projectData.button_text}/>
             </div>
-            <ContactPart title_section={contactData.title_section} text_contact={contactData.text_contact}
-                         button_text={contactData.button_text}/>
-
+            <ContactPart
+                title_section="contact.contact.title_section"
+                text_contact="contact.contact.text_contact"
+                button_text="contact.contact.button_text"
+            />
         </div>
     );
 };

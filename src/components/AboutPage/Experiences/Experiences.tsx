@@ -2,7 +2,7 @@
 import {ExperiencesType} from "../../../types/Experiences.ts";
 
 /* Json Data */
-import experiences from './Experiences.json';
+import experiences from '../../../locales/fr/Experiences.json';
 
 const Experiences = () => {
     return (

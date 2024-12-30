@@ -1,5 +1,5 @@
 import Footer from "../components/Footer/Footer.tsx";
-import navData from "../components/Navbar/navData.json";
+import navData from "../locales/fr/navData.json";
 import Navbar from "../components/Navbar/Navbar.tsx";
 import WhoIAm from "../components/AboutPage/WhoIAm/WhoIAm.tsx";
 import Experiences from "../components/AboutPage/Experiences/Experiences.tsx";

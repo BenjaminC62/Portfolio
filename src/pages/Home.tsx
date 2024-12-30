@@ -1,8 +1,8 @@
 import {useEffect, useRef} from 'react';
 
 /* Json */
-import navData from './../components/Navbar/navData.json';
-import heroData from './../components/HeroSection/heroData.json'
+import navData from '../locales/fr/navData.json';
+import heroData from '../locales/fr/heroData.json'
 
 /* Components */
 import HeroSection from '../components/HeroSection/HeroSection';

@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar/Navbar.tsx";
-import navData from "../components/Navbar/navData.json";
+import navData from "../locales/fr/navData.json";
 import Footer from "../components/Footer/Footer.tsx";
 import SkillsGrid from "../components/SkillsPage/SkillsGrid.tsx";
 

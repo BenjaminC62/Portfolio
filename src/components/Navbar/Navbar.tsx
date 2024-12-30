@@ -4,9 +4,15 @@ import {NavbarProps} from '../../types'
 import {Link} from 'react-router-dom';
 import HeroSectionLinks from './LinksNavBar/NavBarLinks';
 import NavButtonCV from './NavButtonCV/NavButtonCV';
-import navImage from './../Navbar/NavButtonCV/navImageArrow.json';
+import navImage from '../../locales/fr/navImageArrow.json';
+import {useTranslation} from "react-i18next";
 
 const Navbar: React.FC<NavbarProps> = ({name, lastName}) => {
+    const {i18n} = useTranslation();
+
+    const changeLanguage = (lang: string) => {
+        i18n.changeLanguage(lang); // Change la langue de l'application
+    };
 
     return (
         <>
@@ -20,6 +26,13 @@ const Navbar: React.FC<NavbarProps> = ({name, lastName}) => {
                         <div className='flex'>
                             <HeroSectionLinks/>
                             <NavButtonCV upArrow={navImage.arrow}/>
+                            {/* Boutons pour changer la langue */}
+                            <button onClick={() => changeLanguage('en')} className="text-white mx-2">
+                                English
+                            </button>
+                            <button onClick={() => changeLanguage('fr')} className="text-white mx-2">
+                                Français
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import HeroSectionImage from './HeroSectionImage/HeroSectionImage';
 import './../../styles/animScroll.css'
 
 /* Json */
-import heroButton from './HeroSectionButton/heroButton.json'
+import heroButton from '../../locales/fr/heroButton.json'
 
 /* Types */
 import {HeroSectionData} from '../../types/HeroSectionData.ts'

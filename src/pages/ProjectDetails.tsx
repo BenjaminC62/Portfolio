@@ -1,7 +1,7 @@
 import {useParams} from 'react-router-dom';
 import {projects} from './../components/ProjectsSection/projectsData.ts';
 import Navbar from "../components/Navbar/Navbar.tsx";
-import navData from "../components/Navbar/navData.json";
+import navData from "../locales/fr/navData.json";
 import Footer from "../components/Footer/Footer.tsx";
 import {SetStateAction, useState} from "react";
 

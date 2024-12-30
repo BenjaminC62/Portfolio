@@ -1,6 +1,6 @@
 import NavBarLinks from "../Navbar/LinksNavBar/NavBarLinks.tsx";
 import NavButtonCV from "../Navbar/NavButtonCV/NavButtonCV.tsx";
-import navImage from './../Navbar/NavButtonCV/navImageArrow.json';
+import navImage from '../../locales/fr/navImageArrow.json';
 
 const Footer = () => {
     return (
