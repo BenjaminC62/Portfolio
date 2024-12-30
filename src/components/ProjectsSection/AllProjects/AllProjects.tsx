@@ -1,6 +1,7 @@
 import {projects} from './../projectsData.ts';
 import ProjectsGridSingle from '../ProjectsGridSingle/ProjectsGridSingle';
 
+
 const AllProjects = () => {
     return (
         <div className="flex flex-col items-center min-h-screen text-white py-8">

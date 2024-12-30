@@ -17,6 +17,12 @@ function Home() {
     const lastScrollTopRef = useRef(0);
 
     useEffect(() => {
+        // Restore scroll position
+        const savedScrollPosition = sessionStorage.getItem('scrollPosition');
+        if (savedScrollPosition) {
+            window.scrollTo(0, parseInt(savedScrollPosition, 10));
+        }
+
         const handleScroll = () => {
             const aboutSection = document.querySelector('.about-section');
             const skillsSection = document.querySelector('.skills-section');
@@ -38,6 +44,8 @@ function Home() {
             } else {
                 document.documentElement.style.scrollSnapType = 'y mandatory';
             }
+            // Save scroll position
+            sessionStorage.setItem('scrollPosition', scrollTop.toString());
         };
 
         window.addEventListener('scroll', handleScroll);

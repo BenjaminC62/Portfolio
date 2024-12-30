@@ -1,8 +1,9 @@
 /* Imports */
-import {Link} from "react-router-dom";
+
 
 /* Types */
 import {dateProjectsItems} from "./../../../types/ProjecsSectionsData.ts";
+import {HashLink} from "react-router-hash-link";
 
 const ProjectsGridSingle = ({image, title, link, button_text}: dateProjectsItems) => {
     return (
@@ -28,12 +29,12 @@ const ProjectsGridSingle = ({image, title, link, button_text}: dateProjectsItems
             <p className="font-semibold text-xl mt-4 text-center">{title}</p>
 
             <div className="flex items-center space-x-2 mt-2">
-                <Link
+                <HashLink
                     to={link}
                     className="text-text hover:underline font-bold tracking-[0.2em]"
                 >
                     {button_text}
-                </Link>
+                </HashLink>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"

@@ -16,7 +16,7 @@ import rosequartzspa from './../../assets/projects-images/RoseQuartzSpa.png'
 
 const ProjectsSection = () => {
     return (
-        <div>
+        <div id="top">
             <ProjectsNav title_section={projectsNavData.title_section}
                          recent_projects_1={projectsNavData.recent_projects_1}
                          recent_projects_2={projectsNavData.recent_projects_2}

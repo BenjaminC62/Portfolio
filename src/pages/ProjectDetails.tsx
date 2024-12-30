@@ -24,7 +24,7 @@ const ProjectDetails = () => {
     }
 
     return (
-        <div className="flex flex-col min-h-screen">
+        <div id="top" className="flex flex-col min-h-screen">
             <header className="mt-4 mx-auto container">
                 <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
                         firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>

@@ -44,7 +44,7 @@ export const projects = [
         description: "Un carnet de voyage en ligne qui centralise et partage les expériences de voyage en van des utilisateurs. Ce projet avait pour objectif de concevoir un site web fonctionnel en PHP Laravel en moins de 36 heures. Notre équipe, composée de 8 membres, incluait 4 étudiants du département Informatique et 4 étudiants issus du département MMI. ",
         image: adventura,
         button_text: "Voir le projet",
-        link: "/projects/Adventura",
+        link: "/projects/Adventura#top",
     },
     {
         title: "Bomberman",
@@ -59,7 +59,7 @@ export const projects = [
         description: "Ce projet, réalisé en JavaFX avec trois autres personnes sur une période de 7 semaines de cours, avait pour objectif de concevoir une application fonctionnelle et intuitive. Nous avons collaboré sur la conception des interfaces graphiques, l'implémentation des fonctionnalités, tout en respectant des contraintes techniques et fonctionnelles. Cette expérience nous a permis de renforcer nos compétences en programmation orientée objet et en travail d'équipe, tout en relevant des défis techniques pour aboutir à un logiciel complet et performant.",
         image: bomberman,
         button_text: "Voir le projet",
-        link: "/projects/Bomberman",
+        link: "/projects/Bomberman#top",
     },
     {
         title: "RoseQuartz-Spa",
@@ -74,7 +74,7 @@ export const projects = [
         description: "RoseQuartz-Spa est une application web développée avec React pour une entreprise de spa de luxe. Elle permet de présenter les services, les tarifs, les témoignages des clients, et bien plus encore. Le site est conçu pour offrir une expérience utilisateur fluide et engageante, avec une interface élégante et intuitive.",
         image: roseSpa,
         button_text: "Voir le projet",
-        link: "/projects/RoseQuartz-Spa",
+        link: "/projects/RoseQuartz-Spa#top",
     },
     {
         title: "Amazon-Juste-Prix",
@@ -89,7 +89,7 @@ export const projects = [
         description: "Ce projet, développé en équipe durant 4 semaines (1h30 par semaine), est un jeu interactif inspiré du \"Juste Prix\". Réalisé avec Python, Flask et TailwindCSS, il propose des fonctionnalités variées telles que le choix de difficulté, un mode jour/nuit, et un système de classement. Chaque membre de l'équipe a contribué à des aspects spécifiques, reflétant une belle collaboration. Ce projet nous a permis de renforcer nos compétences en programmation, en conception d'interfaces et en travail d'équipe.",
         image: AmazonJuste,
         button_text: "Voir le projet",
-        link: "/projects/Amazon-Juste-Prix",
+        link: "/projects/Amazon-Juste-Prix#top",
     },
     {
         title: "L-BIRD",
@@ -104,7 +104,7 @@ export const projects = [
         description: "L-BIRD est un jeu inspiré de Flappy Bird, développé avec Unity. Le jeu met les joueurs au défi de naviguer un oiseau à travers une série d'obstacles en tapant sur l'écran pour le faire voler. Le projet a été réalisé en 10 heures et a permis de renforcer les compétences en développement de jeux et en utilisation de Unity. Le jeu propose des graphismes simples mais attrayants, et un gameplay addictif qui rappelle le jeu original Flappy Bird.",
         image: LBIRD,
         button_text: "Voir le projet",
-        link: "/projects/L-BIRD",
+        link: "/projects/L-BIRD#top",
     },
     {
         title: "LensJudge",
@@ -117,6 +117,6 @@ export const projects = [
         description: "LensJudge est une application Java collaborative développée avec trois camarades de classe. Elle permet aux utilisateurs de compiler, d'exécuter et de vérifier automatiquement des programmes en fonction de cas de test prédéfinis, avec une gestion personnalisable des limites de ressources. Le projet a été réalisé en 70 heures et a nécessité une collaboration et une résolution de problèmes approfondies. Ce projet a amélioré nos compétences en programmation Java, en conception de logiciels et en travail d'équipe, et a fourni une expérience précieuse dans le développement d'une application complexe et concrète.",
         image: LensJudge,
         button_text: "Voir le projet",
-        link: "/projects/LensJudge",
+        link: "/projects/LensJudge#top",
     },
 ];

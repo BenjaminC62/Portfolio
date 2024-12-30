@@ -2,10 +2,11 @@
 import {ProjectsNavSectionData} from "../../../types/ProjectsSectionData.ts";
 
 /* Imports */
-import {Link} from "react-router-dom";
+
 
 /* CSS */
 import './../../HeroSection/HeroSectionImage/HerSectionImage.css'
+import {HashLink} from "react-router-hash-link";
 
 const ProjectsNav = ({title_section, recent_projects_1, recent_projects_2, button_text}: ProjectsNavSectionData) => {
     return (
@@ -18,7 +19,8 @@ const ProjectsNav = ({title_section, recent_projects_1, recent_projects_2, butto
                 <hr className="w-20 mt-8 border-text"/>
             </div>
             <div>
-                <Link to="/projects" className="bg-[#00d8e6] px-8 py-2 rounded pulse-animation">{button_text}</Link>
+                <HashLink to="/projects#top"
+                          className="bg-[#00d8e6] px-8 py-2 rounded pulse-animation">{button_text}</HashLink>
             </div>
         </div>
 
