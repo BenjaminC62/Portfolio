@@ -13,7 +13,7 @@ import React from './../../assets/icons-skills/React.png';
 import typescript from './../../assets/icons-skills/typescript.png';
 import Java from './../../assets/icons-skills/Java.png';
 import Python from './../../assets/icons-skills/Python.png';
-import Php from './../../assets/icons-skills/Php.png';
+import Php from './../../assets/icons-skills/php.png';
 import MySql from './../../assets/icons-skills/MySql.png';
 import SQlite from './../../assets/icons-skills/SQlite.png';
 import postgre from './../../assets/icons-skills/postgre.png';
