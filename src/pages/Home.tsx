@@ -46,11 +46,11 @@ function Home() {
             const direction = scrollTop > lastScrollTopRef.current ? 'down' : 'up';
             lastScrollTopRef.current = scrollTop;
 
-            // Vérifier si le scroll est dans une section où le snap doit être désactivé
+            // Vérifie si le scroll est dans une section où le snap doit être désactivé
             if ((scrollTop >= aboutOffsetTop && scrollTop < aboutOffsetTop + aboutHeight) ||
                 (scrollTop >= skillsOffsetTop && scrollTop < skillsOffsetTop + skillsHeight)) {
                 document.documentElement.style.scrollSnapType = 'none';
-                document.body.style.scrollSnapType = 'none'; // Appliquer aussi au body
+                document.body.style.scrollSnapType = 'none'; // Appliquer aussi sur le body
             } else if (scrollTop < aboutOffsetTop && direction === 'up') {
                 document.documentElement.style.scrollSnapType = isLargeScreen ? 'y mandatory' : 'none';
                 document.body.style.scrollSnapType = isLargeScreen ? 'y mandatory' : 'none';
@@ -75,25 +75,30 @@ function Home() {
 
     return (
         <>
-            <main className="text-white font-poppins">
-                <section className="container mx-auto px-4 sm:px-6 lg:px-8" id="scroll-section">
-                    <div className="md:mt-8 text-background invisible">space</div>
-                    <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
-                            firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
-                    <HeroSection nom="hero.nom" description="hero.description" subtitle="hero.subtitle"
-                                 prenom="hero.prenom"/>
-                </section>
-                <ScrollIndicator/>
-                <section className="container mx-auto mt-40 about-section px-4 sm:px-6 lg:px-8" id="scroll-section">
-                    <SkillsSection/>
-                </section>
-                <section className="container mx-auto skills-section" id="scroll-section">
-                    <ProjectsSection/>
-                </section>
-            </main>
-            <footer>
-                <Footer/>
-            </footer>
+            <div className="flex flex-col min-h-screen">
+                <main className="flex-grow text-white font-poppins">
+                    <section className="container mx-auto px-4 sm:px-6 lg:px-8" id="scroll-section">
+                        <div className="md:mt-8 text-background invisible">space</div>
+                        <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
+                                firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
+                        <HeroSection nom="hero.nom" description="hero.description" subtitle="hero.subtitle"
+                                     prenom="hero.prenom"/>
+                    </section>
+                    <ScrollIndicator/>
+                    <section
+                        className="container mx-auto mt-36 md:mt-40 about-section px-4 sm:px-6 lg:px-8"
+                        id="scroll-section">
+                        <SkillsSection/>
+                    </section>
+                    <section className="container mx-auto skills-section mt-[650px] sm:mt-24 md:mt-0"
+                             id="scroll-section">
+                        <ProjectsSection/>
+                    </section>
+                </main>
+                <footer className="mt-[700px] sm:mt-[1000px] md:mt-5 lg:mt-0">
+                    <Footer/>
+                </footer>
+            </div>
         </>
     );
 }

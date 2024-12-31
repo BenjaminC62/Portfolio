@@ -4,7 +4,8 @@ import SkillsSectionDescription from "./SkillsSectionDescription/SkillsSectionDe
 
 const SkillsSection = () => {
     return (
-        <div className="flex flex-row justify-between items-center min-h-screen">
+        <div
+            className="flex flex-col  justify-center items-center w-full md:flex-row md:justify-between md:items-center min-h-screen px-4 sm:px-6 lg:px-8 gap-8">
             <SkillsSectionDescription title_section="skillsDesc.title_section"
                                       proposition_1="skillsDesc.proposition_1"
                                       proposition_2="skillsDesc.proposition_2" text_1="skillsDesc.text_1"

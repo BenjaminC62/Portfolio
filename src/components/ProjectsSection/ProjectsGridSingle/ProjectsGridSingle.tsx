@@ -1,4 +1,3 @@
-/* Types */
 import {dateProjectsItems} from "./../../../types/ProjecsSectionsData.ts";
 import {HashLink} from "react-router-hash-link";
 import {useTranslation} from "react-i18next";
@@ -8,16 +7,11 @@ const ProjectsGridSingle = ({image, title, link, button_text}: dateProjectsItems
 
     return (
         <div
-            className="bg-[#1a1a1a] rounded-lg flex flex-col justify-between items-center p-4 mt-16"
-            style={{width: "31rem", height: "24rem"}}
+            className="bg-[#1a1a1a] rounded-lg flex flex-col justify-between items-center p-4 mt-16
+                       w-full max-w-[16rem] sm:max-w-[24rem] md:max-w-[31rem] h-auto"
         >
             <div
-                className="rounded-md overflow-hidden"
-                style={{
-                    width: "29rem",
-                    height: "18rem",
-                    boxShadow: "10px 15px 30px rgba(0, 0, 0, 0.5)",
-                }}
+                className="rounded-md overflow-hidden w-full h-[12rem] sm:h-[18rem] md:h-[24rem] lg:w-[29rem] lg:h-[18rem] shadow-lg"
             >
                 <img
                     src={image}
@@ -27,7 +21,7 @@ const ProjectsGridSingle = ({image, title, link, button_text}: dateProjectsItems
                 />
             </div>
 
-            <p className="font-semibold text-xl mt-4 text-center">{title}</p>
+            <p className="font-semibold text-lg sm:text-xl mt-4 text-center">{title}</p>
 
             <div className="flex items-center space-x-2 mt-2">
                 <HashLink

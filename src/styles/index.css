@@ -28,4 +28,16 @@
 html, body {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex-grow: 1;
 }

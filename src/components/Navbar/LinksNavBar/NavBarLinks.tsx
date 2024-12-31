@@ -17,7 +17,7 @@ const HeroSectionLinks = () => {
 
     // @ts-ignore
     return (
-        <div className='flex flex-row'>
+        <div className='flex flex-row justify-center'>
             <Link to="https://github.com/BenjaminC62" target="_blank" className="mr-8"><img src={githubIcon}
                                                                                             className="w-10 h-10 rounded-50 cursor-pointer ring-offset-primary"
                                                                                             alt="github-icon"/></Link>

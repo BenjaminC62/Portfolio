@@ -8,7 +8,8 @@ const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) 
     const {t} = useTranslation();
 
     return (
-        <div className="relative bottom-[-10rem] flex items-center justify-center flex-col md:flex-row">
+        <div
+            className="relative bottom-[-1rem] md:bottom-[-10rem] md:right-[1rem] flex items-center justify-center flex-col md:flex-row">
             <Link
                 to="/aboutme"
                 className="flex items-center justify-center w-[6rem] h-[6rem] bg-[#00d8e6] text-white font-bold rounded-full cursor-pointer animate-pulse"
@@ -19,7 +20,8 @@ const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) 
                     backgroundPosition: 'center'
                 }}
             />
-            <div className="ml-8 font-poppins text-shadow-name flex flex-col justify-center mt-4 md:mt-0">
+            <div
+                className="md:ml-8 font-poppins text-shadow-name flex flex-col justify-center md:flex md:flex-col md:justify-center mt-4 md:mt-0">
                 <p className="text-xl mx-auto font-semibold">{t(title)}</p>
                 <hr className="border-text my-1"/>
                 <p className="text-lg text-text font-semibold">{t(subtitle)}</p>

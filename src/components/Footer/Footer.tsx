@@ -4,15 +4,21 @@ import navImage from '../../locales/fr/navImageArrow.json';
 
 const Footer = () => {
     return (
-        <footer className="bg-background text-white py-4 mt-8">
-            <div className="flex justify-between items-center">
-                <div className="ml-4">
+        <footer className="bg-background text-white py-6 md:mt-12">
+            <div
+                className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 px-4">
+                <div className="w-full md:w-auto text-center md:text-left">
                     <NavBarLinks/>
                 </div>
-                <p className="text-center">&copy; {new Date().getFullYear()} Cornet Benjamin. All rights reserved.</p>
-                <NavButtonCV upArrow={navImage.arrow}/>
-            </div>
 
+                <p className="text-sm md:text-base text-center">
+                    &copy; {new Date().getFullYear()} Cornet Benjamin. All rights reserved.
+                </p>
+
+                <div className="w-full md:w-auto text-center md:text-right">
+                    <NavButtonCV upArrow={navImage.arrow}/>
+                </div>
+            </div>
         </footer>
     );
 };

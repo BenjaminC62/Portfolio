@@ -30,3 +30,10 @@
         opacity: 0;
     }
 }
+
+
+@media (max-width: 768px) {
+    .scroll-indicator {
+        display: none;
+    }
+}

@@ -5,7 +5,8 @@ const HeroSectionImage = () => {
     return (
         <div>
             <img src={imageMe} alt="hero"
-                 className="w-1000 h-1000 object-cover relative left-14 top-14 brightness-95" loading="eager"/>
+                 className="w-[500px] h-[500px] md:w-1000 md:h-1000 object-cover relative   md:left-14 md:top-14 brightness-95"
+                 loading="eager"/>
         </div>
     )
 }
