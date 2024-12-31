@@ -10,6 +10,11 @@ import HeroButtonFR from './../locales/fr/heroButton.json';
 import SkillsSectionDescFR from './../locales/fr/SkillsSectionDescription.json';
 import SkillsSectionGridDescFR from './../locales/fr/SkillsSectionGrid.json';
 import WhoIAmFR from './../locales/fr/WhoIAm.json';
+import SkillsFR from './../locales/fr/skills.json';
+import projectHomeFR from './../locales/fr/ProjectsGridSingle.json';
+import projectsNavFR from './../locales/fr/ProjectsNav.json';
+import allProjectsDetailsFR from './../locales/fr/AllProject.json';
+import datailsProjectFR from './../locales/fr/detailsProject.json';
 
 
 /* EN */
@@ -20,6 +25,11 @@ import HeroButtonEN from './../locales/en/heroButton.json';
 import SkillsSectionDescEN from './../locales/en/SkillsSectionDescription.json';
 import SkillsSectionGridDescEN from './../locales/en/SkillsSectionGrid.json';
 import WhoIAmEN from './../locales/en/WhoIAm.json';
+import SkillsEN from './../locales/en/skills.json';
+import projectHomeEN from './../locales/en/ProjectsGridSingle.json';
+import projectsNavEN from './../locales/en/ProjectsNav.json';
+import allProjectsDetailsEN from './../locales/en/AllProject.json';
+import datailsProjectEN from './../locales/en/detailsProject.json';
 
 i18n
     .use(initReactI18next)
@@ -34,6 +44,11 @@ i18n
                     skillsDesc: SkillsSectionDescEN,
                     skillsGrid: SkillsSectionGridDescEN,
                     whoIAm: WhoIAmEN,
+                    skills: SkillsEN,
+                    projectHome: projectHomeEN,
+                    projectsNav: projectsNavEN,
+                    allProjects: allProjectsDetailsEN,
+                    detailsProject: datailsProjectEN,
                 }
             },
             fr: {
@@ -45,10 +60,15 @@ i18n
                     skillsDesc: SkillsSectionDescFR,
                     skillsGrid: SkillsSectionGridDescFR,
                     whoIAm: WhoIAmFR,
+                    skills: SkillsFR,
+                    projectHome: projectHomeFR,
+                    projectsNav: projectsNavFR,
+                    allProjects: allProjectsDetailsFR,
+                    detailsProject: datailsProjectFR,
                 }
             },
         },
-        lng: 'fr',
+        lng: 'en',
         fallbackLng: 'en',
         interpolation: {
             escapeValue: false,

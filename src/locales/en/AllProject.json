@@ -1,0 +1,47 @@
+{
+  "title": "My projects",
+  "projects": [
+    {
+      "title": "Adventura",
+      "timeTaken": "36 hours",
+      "intro": "Adventura is an innovative web application that allows users to share and discover van travel experiences. This project was made in PHP Laravel.",
+      "description": "An online travel journal that centralizes and shares users' van travel experiences. This project aimed to design a functional website in PHP Laravel in less than 36 hours. Our team, composed of 8 members, included 4 students from the Computer Science department and 4 students from the MMI department.",
+      "button_text": "View the project"
+    },
+    {
+      "title": "Bomberman",
+      "timeTaken": "25 hours",
+      "intro": "Bomberman is a classic arcade game where players navigate mazes, place bombs, and try to defeat enemies. It was made in JavaFX.",
+      "description": "This project, made in JavaFX with three other people over a 7-week period of classes, aimed to design a functional and intuitive application. We collaborated on the design of the graphical interfaces, the implementation of features, while respecting technical and functional constraints. This experience allowed us to strengthen our skills in object-oriented programming and teamwork, while facing technical challenges to achieve a complete and efficient software.",
+      "button_text": "View the project"
+    },
+    {
+      "title": "RoseQuartz-Spa",
+      "timeTaken": "In progress",
+      "intro": "Welcome to the RoseQuartz-Spa website! This is a web application created with React, designed for a luxury spa company to showcase its services, rates, testimonials, and more.",
+      "description": "RoseQuartz-Spa is a web application developed with React for a luxury spa company. It allows to present services, rates, customer testimonials, and much more. The site is designed to offer a smooth and engaging user experience, with an elegant and intuitive interface.",
+      "button_text": "View the project"
+    },
+    {
+      "title": "Amazon-Juste-Prix",
+      "timeTaken": "6 hours",
+      "intro": "A collaborative project based on the game \"Le Juste Prix\", integrating interactive features such as the choice of difficulty, a ranking, custom themes, a night/day mode, and much more. This project was developed with Python, Flask, TailwindCSS.",
+      "description": "This project, developed as a team over 4 weeks (1h30 per week), is an interactive game inspired by \"Le Juste Prix\". Made with Python, Flask, and TailwindCSS, it offers various features such as the choice of difficulty, a day/night mode, and a ranking system. Each team member contributed to specific aspects, reflecting a great collaboration. This project allowed us to strengthen our programming skills, interface design, and teamwork.",
+      "button_text": "View the project"
+    },
+    {
+      "title": "L-BIRD",
+      "timeTaken": "10 hours",
+      "intro": "L-BIRD is a game inspired by Flappy Bird, developed with Unity.",
+      "description": "L-BIRD is a game inspired by Flappy Bird, developed with Unity. The game challenges players to navigate a bird through a series of obstacles by tapping the screen to make it fly. The project was completed in 10 hours and helped strengthen skills in game development and use of Unity. The game offers simple yet attractive graphics, and addictive gameplay reminiscent of the original Flappy Bird game.",
+      "button_text": "View the project"
+    },
+    {
+      "title": "LensJudge",
+      "timeTaken": "70 hours",
+      "intro": "LensJudge is a collaborative Java application created with three classmates, allowing to compile, run, and automatically verify programs based on predefined test cases, with customizable resource limits management. This project was made in Java.",
+      "description": "LensJudge is a collaborative Java application developed with three classmates. It allows users to compile, run, and automatically verify programs based on predefined test cases, with customizable resource limits management. The project was completed in 70 hours and required in-depth collaboration and problem-solving. This project improved our Java programming skills, software design, and teamwork, and provided valuable experience in developing a complex and concrete application.",
+      "button_text": "View the project"
+    }
+  ]
+}

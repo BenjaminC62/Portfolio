@@ -1,14 +1,28 @@
 import {useParams} from 'react-router-dom';
-import {projects} from './../components/ProjectsSection/projectsData.ts';
+import {projects} from '../components/ProjectsSection/projectsData.tsx';
 import Navbar from "../components/Navbar/Navbar.tsx";
 import navData from "../locales/fr/navData.json";
 import Footer from "../components/Footer/Footer.tsx";
 import {SetStateAction, useState} from "react";
+import {useTranslation} from "react-i18next";
+
+/* Types */
+type Project = {
+    title: string;
+    timeTaken: string;
+    intro: string;
+    description: string;
+};
 
 const ProjectDetails = () => {
     const [selectedImage, setSelectedImage] = useState(null);
     const {title} = useParams<{ title: string }>();
     const project = projects.find((p) => p.title === title);
+
+    const {t} = useTranslation();
+
+    const translatedProjects = t('allProjects.projects', {returnObjects: true}) as Project[];
+    const translatedProject = translatedProjects.find((p) => p.title === title);
 
     const openModal = (image: string | SetStateAction<null>) => {
         // @ts-ignore
@@ -61,24 +75,25 @@ const ProjectDetails = () => {
                             </a>
                         </div>
                         <p className="text-gray-400 mb-4">
-                            <strong>Durée :</strong> {project.timeTaken}
+                            <strong>{t('detailsProject.duration')}
+                                :</strong> {translatedProject ? translatedProject.timeTaken : 'Translation not available'}
                         </p>
                         <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                            {project.intro}
+                            {translatedProject ? translatedProject.intro : 'Translation not available'}
                         </p>
                         <button
                             onClick={() => window.history.back()}
                             className="px-6 py-2 rounded bg-[#00FFEE] text-black font-semibold uppercase tracking-wider shadow-md hover:shadow-lg transition-all duration-300"
                         >
-                            Retourner en arrière
+                            {t('detailsProject.goBack')}
                         </button>
                     </div>
                 </div>
 
                 <div className="mt-12 max-w-6xl w-full bg-[#1a1a1a] p-8 rounded-lg shadow-lg">
-                    <h2 className="text-3xl font-bold text-[#00FFEE] mb-6">Détails du projet</h2>
+                    <h2 className="text-3xl font-bold text-[#00FFEE] mb-6">{t('detailsProject.details')}</h2>
                     <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                        {project.description}
+                        {translatedProject ? translatedProject.description : 'Translation not available'}
                     </p>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

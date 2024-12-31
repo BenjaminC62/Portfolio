@@ -21,12 +21,15 @@ import Git from './../../assets/icons-skills/Git.png';
 import VsCode from './../../assets/icons-skills/VsCode.png';
 import Laravel from './../../assets/icons-skills/Laravel.png';
 import Jetbrain from './../../assets/icons-skills/Jetbrain.png';
+import {useTranslation} from "react-i18next";
 
 
 const SkillsGrid = () => {
+    const {t} = useTranslation();
+
     const categories = [
         {
-            title: "Développement Web",
+            title: t("skills.webDevelopment"),
             skills: [
                 {name: "HTML", image: html},
                 {name: "CSS", image: css},
@@ -36,7 +39,7 @@ const SkillsGrid = () => {
             ],
         },
         {
-            title: "Développment d'application",
+            title: t("skills.appDevelopment"),
             skills: [
                 {name: "Java", image: Java},
                 {name: "Python", image: Python},
@@ -44,7 +47,7 @@ const SkillsGrid = () => {
             ],
         },
         {
-            title: "Bases de données",
+            title: t("skills.databases"),
             skills: [
                 {name: "MySQL", image: MySql},
                 {name: "SQLite", image: SQlite},
@@ -52,7 +55,7 @@ const SkillsGrid = () => {
             ],
         },
         {
-            title: "Outils",
+            title: t("skills.tools"),
             skills: [
                 {name: "Git", image: Git},
                 {name: "VS Code", image: VsCode},
@@ -60,7 +63,7 @@ const SkillsGrid = () => {
             ],
         },
         {
-            title: "Frameworks",
+            title: t("skills.frameworks"),
             skills: [
                 {name: "TailWind", image: Tailwind},
                 {name: "Laravel", image: Laravel},
@@ -71,7 +74,7 @@ const SkillsGrid = () => {
     return (
         <div className="flex flex-col items-center min-h-screen text-white py-8">
             <h1 className="text-5xl font-extrabold mb-8 font-poppins text-transparent bg-clip-text bg-gradient-to-r from-[#00FFEE] to-[#2575fc] tracking-wide uppercase shadow-lg animate-gradientText hover:scale-105 hover:shadow-xl transition-all duration-500 ease-in-out">
-                Mes compétences
+                {t("skills.mySkills")}
             </h1>
             {categories.map((category, index) => (
                 <div key={index} className="mb-12 w-full max-w-[80rem]">

@@ -1,11 +1,11 @@
-/* Imports */
-
-
 /* Types */
 import {dateProjectsItems} from "./../../../types/ProjecsSectionsData.ts";
 import {HashLink} from "react-router-hash-link";
+import {useTranslation} from "react-i18next";
 
 const ProjectsGridSingle = ({image, title, link, button_text}: dateProjectsItems) => {
+    const {t} = useTranslation();
+
     return (
         <div
             className="bg-[#1a1a1a] rounded-lg flex flex-col justify-between items-center p-4 mt-16"
@@ -33,7 +33,7 @@ const ProjectsGridSingle = ({image, title, link, button_text}: dateProjectsItems
                     to={link}
                     className="text-text hover:underline font-bold tracking-[0.2em]"
                 >
-                    {button_text}
+                    {t(button_text)}
                 </HashLink>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

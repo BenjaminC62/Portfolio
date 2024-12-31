@@ -1,6 +1,5 @@
 /* Json */
-import projectData from './ProjectsGridSingle/ProjectsGridSingle.json'
-import projectsNavData from './ProjectsNav/ProjectsNav.json'
+import projectData from '../../locales/fr/ProjectsGridSingle.json'
 
 /* Components */
 import ProjectsNav from "./ProjectsNav/ProjectsNav.tsx";
@@ -19,17 +18,17 @@ const ProjectsSection = () => {
 
     return (
         <div id="top">
-            <ProjectsNav title_section={projectsNavData.title_section}
-                         recent_projects_1={projectsNavData.recent_projects_1}
-                         recent_projects_2={projectsNavData.recent_projects_2}
-                         button_text={projectsNavData.button_text}/>
+            <ProjectsNav title_section="projectsNav.title_section"
+                         recent_projects_1="projectsNav.recent_projects_1"
+                         recent_projects_2="projectsNav.recent_projects_2"
+                         button_text="projectsNav.button_text"/>
             <div className="flex flex-col lg:flex-row justify-between w-full">
                 <ProjectsGridSingle image={adventura} link={projectData.projet_1.link}
-                                    title={projectData.projet_1.title} button_text={projectData.button_text}/>
+                                    title={projectData.projet_1.title} button_text="projectHome.button_text"/>
                 <ProjectsGridSingle image={bomberman} link={projectData.projet_2.link}
-                                    title={projectData.projet_2.title} button_text={projectData.button_text}/>
+                                    title={projectData.projet_2.title} button_text="projectHome.button_text"/>
                 <ProjectsGridSingle image={rosequartzspa} link={projectData.projet_3.link}
-                                    title={projectData.projet_3.title} button_text={projectData.button_text}/>
+                                    title={projectData.projet_3.title} button_text="projectHome.button_text"/>
             </div>
             <ContactPart
                 title_section="contact.contact.title_section"

@@ -29,7 +29,6 @@ import rose1 from './../../assets/projects-images/AdditionalImages/rose_1.png';
 import rose2 from './../../assets/projects-images/AdditionalImages/rose_2.png';
 import rose3 from './../../assets/projects-images/AdditionalImages/rose_3.png';
 
-
 export const projects = [
     {
         title: "Adventura",
