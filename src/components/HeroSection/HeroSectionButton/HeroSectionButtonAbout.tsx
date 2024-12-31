@@ -4,19 +4,14 @@ import {HeroSectionButtonProps} from '../../../types';
 import React from "react";
 import {useTranslation} from "react-i18next";
 
-/**
- * Button, that show my projects
- *
- * @returns Button, that show my projects
- */
 const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) => {
     const {t} = useTranslation();
 
     return (
-        <div className="relative bottom-[-10rem] flex items-center justify-center">
+        <div className="relative bottom-[-10rem] flex items-center justify-center flex-col md:flex-row">
             <Link
                 to="/aboutme"
-                className="flex items-center justify-center w-[6rem] h-[6rem] bg-[#00d8e6] text-white font-bold rounded-50 cursor-pointer animate-pulse"
+                className="flex items-center justify-center w-[6rem] h-[6rem] bg-[#00d8e6] text-white font-bold rounded-full cursor-pointer animate-pulse"
                 style={{
                     backgroundImage: `url(${playButton})`,
                     backgroundSize: '3rem 3rem',
@@ -24,7 +19,7 @@ const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) 
                     backgroundPosition: 'center'
                 }}
             />
-            <div className="ml-8 font-poppins text-shadow-name flex flex-col justify-center">
+            <div className="ml-8 font-poppins text-shadow-name flex flex-col justify-center mt-4 md:mt-0">
                 <p className="text-xl mx-auto font-semibold">{t(title)}</p>
                 <hr className="border-text my-1"/>
                 <p className="text-lg text-text font-semibold">{t(subtitle)}</p>
@@ -33,4 +28,4 @@ const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) 
     )
 }
 
-export default ButtonHeroSection
+export default ButtonHeroSection;

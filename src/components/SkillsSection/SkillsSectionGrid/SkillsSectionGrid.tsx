@@ -20,9 +20,8 @@ const SkillsSectionGrid = ({cat1, cat1_desc, cat2, cat2_desc, cat3, cat3_desc, c
             <div className="relative p-4 flex flex-col items-center justify-center">
                 <div className="absolute inset-0 bg-gradient-to-t from-text to-transparent opacity-10"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="128" height="128" viewBox="0,0,256,256">
-                    <g fill="#00ffee" stroke="none" stroke-linecap="butt"
-                       stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                       font-family="none" font-weight="none" font-size="none" text-anchor="none">
+                    <g fill="#00ffee" stroke="none"
+                    >
                         <g transform="scale(5.12,5.12)">
                             <path
                                 d="M5,2c-1.64453,0 -3,1.35547 -3,3v30c0,1.64453 1.35547,3 3,3h14v2h-9c-0.03125,0 -0.0625,0 -0.09375,0c-0.26953,0.02734 -0.51953,0.16016 -0.6875,0.375l-5,6c-0.24219,0.30078 -0.28906,0.71094 -0.12109,1.05859c0.16797,0.34766 0.51953,0.56641 0.90234,0.56641h40c0.38281,0 0.73438,-0.21875 0.90234,-0.56641c0.16797,-0.34766 0.12109,-0.75781 -0.12109,-1.05859l-5,-6c-0.19141,-0.23828 -0.47656,-0.375 -0.78125,-0.375h-9v-2h14c1.64453,0 3,-1.35547 3,-3v-30c0,-1.64453 -1.35547,-3 -3,-3zM5,4h40c0.55469,0 1,0.44531 1,1v30c0,0.55469 -0.44531,1 -1,1h-40c-0.55469,0 -1,-0.44531 -1,-1v-30c0,-0.55469 0.44531,-1 1,-1zM6,6v28h38v-28zM8,8h34v24h-34zM19.28125,11.28125l-8,8l-0.6875,0.71875l0.6875,0.71875l8,8l1.4375,-1.4375l-7.28125,-7.28125l7.28125,-7.28125zM30.71875,11.28125l-1.4375,1.4375l7.28125,7.28125l-7.28125,7.28125l1.4375,1.4375l8,-8l0.6875,-0.71875l-0.6875,-0.71875zM21,38h8v4h-8zM10.46875,42h8.53125v2h12v-2h8.53125l3.34375,4h-35.75z"></path>
@@ -34,9 +33,8 @@ const SkillsSectionGrid = ({cat1, cat1_desc, cat2, cat2_desc, cat3, cat3_desc, c
             </div>
             <div className="relative p-4 flex flex-col justify-center items-center -translate-y-8">
                 <div className="absolute inset-0 bg-gradient-to-t from-text to-transparent opacity-10"></div>
-                <svg className="z-50 text-[#00FFEE]" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
+                <svg className="z-50 text-[#00FFEE]"
                      width="148" height="148"
-                     stroke-miterlimit="2"
                      viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="m21 4c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm2.818 5.865 2.635 1.622-2.641 1.645c-.207.146-.318.378-.318.613 0 .601.682.966 1.182.613l3.511-2.257c.199-.141.318-.369.318-.614 0-.244-.119-.472-.318-.613l-3.505-2.235c-.498-.35-1.182.009-1.182.612 0 .236.111.468.318.614zm9.678 3.873c0-.414-.336-.75-.75-.75h-3.5c-.413 0-.75.336-.75.75s.337.75.75.75h3.5c.414 0 .75-.336.75-.75z"

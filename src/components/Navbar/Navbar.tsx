@@ -1,6 +1,5 @@
-import React from 'react'
-
-import {NavbarProps} from '../../types'
+import React from 'react';
+import {NavbarProps} from '../../types';
 import {Link} from 'react-router-dom';
 import HeroSectionLinks from './LinksNavBar/NavBarLinks';
 import NavButtonCV from './NavButtonCV/NavButtonCV';
@@ -8,23 +7,47 @@ import navImage from '../../locales/fr/navImageArrow.json';
 
 const Navbar: React.FC<NavbarProps> = ({name, lastName}) => {
     return (
-        <>
-            <nav>
-                <div className='bg-main backdrop-blur'>
-                    <div className='mx-auto flex justify-between items-center'>
-                        <div className='font-bold text-4xl'>
-                            <Link to="/" className='text-white'>{name}</Link>
-                            <Link to="/" className='mx-2 text-text text-shadow-name shadow-text'>{lastName}</Link>
-                        </div>
-                        <div className='flex'>
-                            <HeroSectionLinks/>
-                            <NavButtonCV upArrow={navImage.arrow}/>
-                        </div>
-                    </div>
+        <nav className="bg-main backdrop-blur">
+            <div className="container mx-auto flex flex-wrap justify-between items-center">
+                <div className="flex items-center">
+                    <Link to="/" className="text-white font-bold text-2xl md:text-4xl">
+                        {name}
+                    </Link>
+                    <Link to="/" className="mx-2 text-text text-shadow-name shadow-text font-bold text-2xl md:text-4xl">
+                        {lastName}
+                    </Link>
                 </div>
-            </nav>
-        </>
-    )
-}
+
+                <div className="hidden md:flex items-center space-x-6">
+                    <HeroSectionLinks/>
+                    <NavButtonCV upArrow={navImage.arrow}/>
+                </div>
+
+
+                <div className="md:hidden">
+                    <button
+                        className="text-white focus:outline-none"
+                        aria-label="Toggle navigation"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M4 6h16M4 12h16m-7 6h7"
+                            />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    );
+};
 
 export default Navbar;
