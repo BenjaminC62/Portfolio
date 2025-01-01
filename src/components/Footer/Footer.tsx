@@ -1,6 +1,5 @@
 import NavBarLinks from "../Navbar/LinksNavBar/NavBarLinks.tsx";
 import NavButtonCV from "../Navbar/NavButtonCV/NavButtonCV.tsx";
-import navImage from '../../locales/fr/navImageArrow.json';
 
 const Footer = () => {
     return (
@@ -16,7 +15,7 @@ const Footer = () => {
                 </p>
 
                 <div className="w-full md:w-auto text-center md:text-right">
-                    <NavButtonCV upArrow={navImage.arrow}/>
+                    <NavButtonCV/>
                 </div>
             </div>
         </footer>
