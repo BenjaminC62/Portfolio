@@ -10,8 +10,8 @@ const HeroSection = ({nom, prenom, subtitle, description}: HeroSectionData) => {
     return (
         <>
             <article
-                className="flex flex-col-reverse md:flex-row md:justify-between md:items-center w-full">
-                <div className="relative md:bottom-14 md:mb-0 text-center md:text-left">
+                className="flex flex-col-reverse md:flex-col-reverse lg:flex-col-reverse lg:items-center md:items-center xl:flex-row xl:justify-between xl:items-center w-full">
+                <div className="relative xl:bottom-14 xl:mb-0 text-center xl:text-left">
                     <div className='flex justify-center md:justify-start gap-4 mb-3 mt-8 md:mt-0'>
                         <h1 className="text-4xl md:text-7xl font-bold">{t(nom)}</h1>
                         <h1 className="text-4xl md:text-7xl font-bold text-text">{t(prenom)}</h1>

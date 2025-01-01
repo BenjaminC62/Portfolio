@@ -8,7 +8,7 @@ const SoloGrid = ({name, image}: SkillsData) => {
             <img
                 src={image}
                 alt={`${name} Icon`}
-                className="z-50 w-32 h-32"
+                className="z-50 w-12 h-12 sm:w-32 sm:h-32"
                 loading="lazy"
             />
             <span className="mt-4 font-semibold z-10">{name}</span>

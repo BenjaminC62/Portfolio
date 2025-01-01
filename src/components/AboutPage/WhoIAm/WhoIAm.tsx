@@ -33,13 +33,14 @@ const WhoIAm = ({
     const {t} = useTranslation();
 
     return (
-        <section className="container flex mx-auto items-start relative mt-12">
-            <img src={img} width="700px" height="1200px" alt="img_me" className="z-50"/>
+        <section
+            className="container sm:mx-0 md:mx-0 lg:mx-auto lg:items-center xl:flex xl:mx-auto xl:items-start xl:relative xl:mt-12 2xl:flex 2xl:mx-auto 2xl:items-start 2xl:relative 2xl:mt-12">
+            <img src={img} width="700px" height="1200px" alt="img_me" className="z-50 mx-auto"/>
             <div
-                className="absolute top-[-128px] left-[98px] w-full h-full flex justify-center items-center z-0 opacity-10 pointer-events-none">
-                <h1 className="text-9xl font-bold text-white z-0">{t(letter)}</h1>
+                className="absolute xl:top-[-128px] xl:left-[250px] 2xl:top-[-128px] 2xl:left-[98px] w-full h-full flex justify-center items-center z-0 opacity-10 pointer-events-none">
+                <h1 className="text-9xl font-bold text-white z-0 hidden sm:hidden md:hidden lg:hidden xl:block">{t(letter)}</h1>
             </div>
-            <div className="relative z-10 mt-8">
+            <div className="relative z-10 mt-8 text-center xl:text-left 2xl:text-left">
                 <h1 className="text-7xl font-bold text-white mb-12">{t(title)}</h1>
                 <p className="text-lg text-gray-300 mb-8">
                     {t(bio)}

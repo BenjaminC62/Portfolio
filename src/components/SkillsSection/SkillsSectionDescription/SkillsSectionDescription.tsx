@@ -21,17 +21,17 @@ const SkillsSectionDescription = ({
     const {t} = useTranslation();
     return (
         <div
-            className="flex flex-col items-center text-center md:items-start md:text-left w-full md:w-1/2 lg:w-124 space-y-4">
+            className="flex flex-col items-center text-center md:items-center lg:w-full lg:items-center lg:text-center xl:items-start xl:text-left w-full md:w-full md:text-center xl:w-124 space-y-4">
             <span className="text-text font-semibold text-lg tracking-[0.5em]">{t(title_section)}</span>
-            <div className="flex flex-row items-center text-2xl md:text-5xl">
+            <div className="flex flex-row items-center text-2xl md:text-2xl md:text-center lg:text-5xl lg:text-left">
                 <p className="font-semibold inline-block">{t(proposition_1)}</p>
                 <p className="text-text font-semibold ml-2 inline-block">{t(proposition_2)}</p>
             </div>
             <hr className="w-20 mt-4 border-text"/>
-            <h2 className="mt-4 text-gray-300 text-sm md:text-base">{t(text_1)}</h2>
-            <span className="mt-2 text-gray-300 text-sm md:text-base">{t(text_2)}</span>
-            <span className="mt-2 text-gray-300 text-sm md:text-base">{t(text_3)}</span>
-            <span className="mt-2 text-gray-300 text-sm md:text-base">{t(text_4)}</span>
+            <h2 className="mt-4 text-gray-300 text-sm md:text-base lg:text-xl">{t(text_1)}</h2>
+            <span className="mt-2 text-gray-300 text-sm md:text-base lg:text-xl">{t(text_2)}</span>
+            <span className="mt-2 text-gray-300 text-sm md:text-base lg:text-xl">{t(text_3)}</span>
+            <span className="mt-2 text-gray-300 text-sm md:text-base lg:text-xl">{t(text_4)}</span>
             <HashLink
                 to="/skills#top"
                 className="mt-4 px-4 py-2 bg-[#00d8e6] w-48 text-white rounded text-center pulse-animation"

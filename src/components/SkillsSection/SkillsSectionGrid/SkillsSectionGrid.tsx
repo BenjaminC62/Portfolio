@@ -7,7 +7,7 @@ const SkillsSectionGrid = ({cat1, cat1_desc, cat2, cat2_desc, cat3, cat3_desc, c
 
     return (
         <div
-            className="grid grid-cols-1 mt-4 md:mt-0 md:mb-0 lg:mt-0 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 text-center w-full md:w-[44rem] md:h-[44rem]">
+            className="grid grid-cols-1 mt-4 md:mb-0 xl:mt-0 sm:grid-cols-2 gap-4 sm:gap-6 xl:gap-8 text-center w-full md:w-[44rem] md:h-[44rem] md:mt-4">
             <div className="relative p-4 flex flex-col justify-center items-center -translate-y-8">
                 <div className="absolute inset-0 bg-[#1a1a1a] opacity-50 "></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24" fill="#00FFEE"

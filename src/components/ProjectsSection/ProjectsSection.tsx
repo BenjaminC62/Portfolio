@@ -22,7 +22,8 @@ const ProjectsSection = () => {
                          recent_projects_1="projectsNav.recent_projects_1"
                          recent_projects_2="projectsNav.recent_projects_2"
                          button_text="projectsNav.button_text"/>
-            <div className="flex flex-col justify-center items-center  lg:flex-row lg:justify-between w-full">
+            <div
+                className="flex flex-col justify-center items-center lg:flex-col xl:flex-row xl:justify-between w-full">
                 <ProjectsGridSingle image={adventura} link={projectData.projet_1.link}
                                     title={projectData.projet_1.title} button_text="projectHome.button_text"/>
                 <ProjectsGridSingle image={bomberman} link={projectData.projet_2.link}

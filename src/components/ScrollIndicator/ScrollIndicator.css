@@ -37,3 +37,15 @@
         display: none;
     }
 }
+
+@media (max-width: 1024px) {
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+@media (max-width: 1276px) {
+    .scroll-indicator {
+        display: none;
+    }
+}

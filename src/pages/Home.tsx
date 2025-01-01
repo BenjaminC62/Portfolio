@@ -18,7 +18,7 @@ function Home() {
     useEffect(() => {
         // Function to handle window resize
         const handleResize = () => {
-            setIsLargeScreen(window.innerWidth >= 1024); // Définir la taille de l'écran pour lg (1024px)
+            setIsLargeScreen(window.innerWidth >= 1281); // Définir la taille de l'écran pour lg (1024px)
         };
 
         // Appeler handleResize au chargement
@@ -78,7 +78,7 @@ function Home() {
             <div className="flex flex-col min-h-screen">
                 <main className="flex-grow text-white font-poppins">
                     <section className="container mx-auto px-4 sm:px-6 lg:px-8" id="scroll-section">
-                        <div className="md:mt-8 text-background invisible">space</div>
+                        <div className="xl:mt-8 text-background invisible">space</div>
                         <Navbar data={navData.navList} name={navData.name} lastName={navData.lastName}
                                 firstPage={navData.firstPage} homeIcon={navData.homeIcon}/>
                         <HeroSection nom="hero.nom" description="hero.description" subtitle="hero.subtitle"
@@ -86,16 +86,16 @@ function Home() {
                     </section>
                     <ScrollIndicator/>
                     <section
-                        className="container mx-auto mt-36 md:mt-40 about-section px-4 sm:px-6 lg:px-8"
+                        className="container mx-auto mt-36 md:mt-40  lg:mt-40 about-section px-4 sm:px-6 lg:px-8"
                         id="scroll-section">
                         <SkillsSection/>
                     </section>
-                    <section className="container mx-auto skills-section mt-[650px] sm:mt-24 md:mt-0"
+                    <section className="container mx-auto skills-section mt-[650px] sm:mt-24 md:mt-[400px] xl:mt-14"
                              id="scroll-section">
                         <ProjectsSection/>
                     </section>
                 </main>
-                <footer className="mt-[700px] sm:mt-[1000px] md:mt-5 lg:mt-0">
+                <footer className="mt-[700px] sm:mt-[1000px] md:mt-[1250px] lg:mt-[900px] xl:mt-0">
                     <Footer/>
                 </footer>
             </div>

@@ -9,7 +9,7 @@ const ButtonHeroSection: React.FC<HeroSectionButtonProps> = ({title, subtitle}) 
 
     return (
         <div
-            className="relative bottom-[-1rem] md:bottom-[-10rem] md:right-[1rem] flex items-center justify-center flex-col md:flex-row">
+            className="relative bottom-[-1rem] md:bottom-[-6rem] xl:bottom-[-10rem] xl:right-[1rem] flex items-center justify-center flex-col md:flex-row">
             <Link
                 to="/aboutme"
                 className="flex items-center justify-center w-[6rem] h-[6rem] bg-[#00d8e6] text-white font-bold rounded-full cursor-pointer animate-pulse"

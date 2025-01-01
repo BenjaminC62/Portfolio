@@ -3,7 +3,6 @@ import {NavbarProps} from '../../types';
 import {Link} from 'react-router-dom';
 import HeroSectionLinks from './LinksNavBar/NavBarLinks';
 import NavButtonCV from './NavButtonCV/NavButtonCV';
-import navImage from '../../locales/fr/navImageArrow.json';
 
 const Navbar: React.FC<NavbarProps> = ({name, lastName}) => {
     return (
@@ -20,7 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({name, lastName}) => {
 
                 <div className="hidden md:flex items-center space-x-6">
                     <HeroSectionLinks/>
-                    <NavButtonCV upArrow={navImage.arrow}/>
+                    <NavButtonCV/>
                 </div>
 
 

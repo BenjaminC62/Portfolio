@@ -15,8 +15,8 @@ const ProjectsNav = ({title_section, recent_projects_1, recent_projects_2, butto
             <div>
                 <span className="text-text font-semibold text-lg tracking-[0.5em]">{t(title_section)}</span>
                 <div className="flex flex-row items-center"><p
-                    className="font-semibold inline-block text-2xl md:text-5xl">{t(recent_projects_1)}</p><p
-                    className="text-text font-semibold ml-2 inline-block text-2xl md:text-5xl">{t(recent_projects_2)}</p>
+                    className="font-semibold inline-block text-2xl md:text-3xl lg:text-5xl">{t(recent_projects_1)}</p><p
+                    className="text-text font-semibold ml-2 inline-block text-2xl md:text-3xl lg:text-5xl">{t(recent_projects_2)}</p>
                 </div>
                 <hr className=" mt-8 mb-8 w-20 mx-auto border-text md:mx-0 md:w-20 md:mt-8 md:border-text"/>
             </div>
