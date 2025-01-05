@@ -77,6 +77,7 @@ export const projects = [
                 linkedIn: "https://www.linkedin.com/in/sharleen-lepers/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BRuJe%2BEOwRMCK6Ih9XeD43g%3D%3D",
             },
         ],
+        technologies: ["PHP", "Laravel", "HTML", "CSS", "JavaScript"],
     },
     {
         title: "Bomberman",
@@ -109,6 +110,7 @@ export const projects = [
                 github: "https://github.com/SimonCail",
             },
         ],
+        technologies: ["Java", "JavaFX"],
     },
     {
         title: "RoseQuartz-Spa",
@@ -124,6 +126,7 @@ export const projects = [
         image: roseSpa,
         button_text: "Voir le projet",
         link: "/projects/RoseQuartz-Spa#top",
+        technologies: ["React", "JavaScript", "HTML", "CSS"],
     },
     {
         title: "Amazon-Juste-Prix",
@@ -156,6 +159,7 @@ export const projects = [
                 github: "https://github.com/SimonCail",
             },
         ],
+        technologies: ["Python", "Flask", "TailwindCSS"],
     },
     {
         title: "L-BIRD",
@@ -171,6 +175,7 @@ export const projects = [
         image: LBIRD,
         button_text: "Voir le projet",
         link: "/projects/L-BIRD#top",
+        technologies: ["Unity", "C#"],
     },
     {
         title: "LensJudge",
@@ -201,5 +206,6 @@ export const projects = [
                 github: "https://github.com/SimonCail",
             },
         ],
+        technologies: ["Java"],
     },
 ];

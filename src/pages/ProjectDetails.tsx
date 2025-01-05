@@ -21,6 +21,7 @@ type Project = {
         linkedIn: string;
         github: string;
     }[];
+    technologies: [],
 };
 
 
@@ -91,6 +92,22 @@ const ProjectDetails = () => {
                         <p className="text-lg text-gray-300 leading-relaxed mb-6">
                             {translatedProject ? translatedProject.intro : 'Translation not available'}
                         </p>
+                        <div className="flex flex-wrap items-center gap-2 mb-6">
+                            <h3 className="text-xl font-bold text-[#00FFEE] mb-2">{t('detailsProject.technologies')}:</h3>
+                            {project.technologies && project.technologies.length > 0 ? (
+                                project.technologies.map((tech, index) => (
+                                    <span
+                                        key={index}
+                                        className="px-3 py-1 bg-[#1a1a1a] text-[#00FFEE] rounded-full text-sm font-medium shadow-md border border-gray-700"
+                                    >
+                                        {tech}
+                                    </span>
+                                ))
+                            ) : (
+                                <p className="text-gray-400">{t('detailsProject.noTechnologies')}</p>
+                            )}
+                        </div>
+
                         <button
                             onClick={() => window.history.back()}
                             className="px-6 py-2 rounded bg-[#00FFEE] text-black font-semibold uppercase tracking-wider shadow-md hover:shadow-lg transition-all duration-300"
