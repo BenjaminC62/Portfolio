@@ -83,13 +83,6 @@ const Navbar: React.FC<NavbarProps> = ({name, lastName}) => {
                     <HeroSectionLinks/>
 
                     <NavButtonCV/>
-
-                    <button
-                        className="text-white text-lg font-bold"
-                        onClick={() => setMenuOpen(false)}
-                    >
-                        Fermer
-                    </button>
                 </div>
             </div>
         </nav>
