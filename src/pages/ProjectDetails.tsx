@@ -6,13 +6,23 @@ import Footer from "../components/Footer/Footer.tsx";
 import {SetStateAction, useState} from "react";
 import {useTranslation} from "react-i18next";
 
+import linkedin from './../assets/icons-navbar/linkedin-icon-navbar.png';
+import github from './../assets/icons-navbar/github-icon-navbar.png';
+
 /* Types */
 type Project = {
     title: string;
     timeTaken: string;
     intro: string;
     description: string;
+    collaborators?: {
+        title: string;
+        name: string;
+        linkedIn: string;
+        github: string;
+    }[];
 };
+
 
 const ProjectDetails = () => {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -127,6 +137,52 @@ const ProjectDetails = () => {
                         </div>
                     )}
                 </div>
+
+                {project.collaborators && project.collaborators.length > 0 && (
+                    <>
+                        <h3 className="text-4xl mt-4  text-[#00FFEE] mb-6 font-poppins font-bold">{t('detailsProject.collaborators')}</h3>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {project.collaborators.map((collaborator, index) => (
+                                <div
+                                    key={index}
+                                    className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg border border-gray-700 hover:shadow-xl transition-shadow duration-300"
+                                >
+                                    <h4 className="text-xl font-bold text-[#00FFEE] mb-2">{collaborator.name}</h4>
+                                    <div className="flex gap-4">
+                                        <a
+                                            href={collaborator.linkedIn}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="hover:opacity-80 transition-opacity duration-300"
+                                            title="LinkedIn"
+                                        >
+                                            <img
+                                                src={linkedin}
+                                                alt="LinkedIn"
+                                                className="w-8 h-8"
+                                            />
+                                        </a>
+                                        {collaborator.github && (
+                                            <a
+                                                href={collaborator.github}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:opacity-80 transition-opacity duration-300"
+                                                title="GitHub"
+                                            >
+                                                <img
+                                                    src={github}
+                                                    alt="GitHub"
+                                                    className="w-8 h-8"
+                                                />
+                                            </a>
+                                        )}
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </>
+                )}
             </main>
 
             <footer>

@@ -44,6 +44,39 @@ export const projects = [
         image: adventura,
         button_text: "Voir le projet",
         link: "/projects/Adventura#top",
+        collaborators: [
+            {
+                name: "Morel Mathias",
+                linkedIn: "https://www.linkedin.com/in/mathias-morel-753951329/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/Mathias92-cmd",
+            },
+            {
+                name: "Dalmasso Mathéo",
+                linkedIn: "https://www.linkedin.com/in/math%C3%A9o-dalmasso-2aa140340/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/MatheoDalmasso",
+            },
+            {
+                name: "Caillieret Simon",
+                linkedIn: "https://www.linkedin.com/in/simon-caillieret-a8996229a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/SimonCail",
+            },
+            {
+                name: "Lestriez Jade",
+                linkedIn: "https://www.linkedin.com/in/jade-lestriez/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BWt4oJ6gGTV2401u1bMKNYw%3D%3D",
+            },
+            {
+                name: "Deltour Léa",
+                linkedIn: "https://www.linkedin.com/in/l%C3%A9a-deltour-bb32aa247/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BRqBDh1%2BtS1SlwQSNeFzT4A%3D%3D",
+            },
+            {
+                name: "Peuvrel Noah",
+                linkedIn: "https://www.linkedin.com/in/noah-peuvrel-99630b32a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAFL708IB59T-7ueI39Pur08MSUMuSBhZO4M&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BpHwosXZjTcqSA6%2F0Fgiy8g%3D%3D",
+            },
+            {
+                name: "Lepers Sharleen",
+                linkedIn: "https://www.linkedin.com/in/sharleen-lepers/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BRuJe%2BEOwRMCK6Ih9XeD43g%3D%3D",
+            },
+        ],
     },
     {
         title: "Bomberman",
@@ -59,6 +92,23 @@ export const projects = [
         image: bomberman,
         button_text: "Voir le projet",
         link: "/projects/Bomberman#top",
+        collaborators: [
+            {
+                name: "Morel Mathias",
+                linkedIn: "https://www.linkedin.com/in/mathias-morel-753951329/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/Mathias92-cmd",
+            },
+            {
+                name: "Dalmasso Mathéo",
+                linkedIn: "https://www.linkedin.com/in/math%C3%A9o-dalmasso-2aa140340/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/MatheoDalmasso",
+            },
+            {
+                name: "Caillieret Simon",
+                linkedIn: "https://www.linkedin.com/in/simon-caillieret-a8996229a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/SimonCail",
+            },
+        ],
     },
     {
         title: "RoseQuartz-Spa",
@@ -89,6 +139,23 @@ export const projects = [
         image: AmazonJuste,
         button_text: "Voir le projet",
         link: "/projects/Amazon-Juste-Prix#top",
+        collaborators: [
+            {
+                name: "Morel Mathias",
+                linkedIn: "https://www.linkedin.com/in/mathias-morel-753951329/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/Mathias92-cmd",
+            },
+            {
+                name: "Dalmasso Mathéo",
+                linkedIn: "https://www.linkedin.com/in/math%C3%A9o-dalmasso-2aa140340/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/MatheoDalmasso",
+            },
+            {
+                name: "Caillieret Simon",
+                linkedIn: "https://www.linkedin.com/in/simon-caillieret-a8996229a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/SimonCail",
+            },
+        ],
     },
     {
         title: "L-BIRD",
@@ -117,5 +184,22 @@ export const projects = [
         image: LensJudge,
         button_text: "Voir le projet",
         link: "/projects/LensJudge#top",
+        collaborators: [
+            {
+                name: "Morel Mathias",
+                linkedIn: "https://www.linkedin.com/in/mathias-morel-753951329/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/Mathias92-cmd",
+            },
+            {
+                name: "Dalmasso Mathéo",
+                linkedIn: "https://www.linkedin.com/in/math%C3%A9o-dalmasso-2aa140340/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/MatheoDalmasso",
+            },
+            {
+                name: "Caillieret Simon",
+                linkedIn: "https://www.linkedin.com/in/simon-caillieret-a8996229a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BOMAvfhkvQe6bYS2GTUkObQ%3D%3D",
+                github: "https://github.com/SimonCail",
+            },
+        ],
     },
 ];
