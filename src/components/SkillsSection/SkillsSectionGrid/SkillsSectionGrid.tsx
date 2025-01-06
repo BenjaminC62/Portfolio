@@ -32,7 +32,8 @@ const SkillsSectionGrid = ({cat1, cat1_desc, cat2, cat2_desc, cat3, cat3_desc, c
                 <span className="mt-4 font-semibold">{t(cat1)}</span>
                 <span className="mt-2 text-sm text-gray-300 ">{t(cat1_desc)}</span>
             </div>
-            <div className="relative p-4 mt-4 md:mt-0 lg:mt-0 flex flex-col justify-center items-center -translate-y-8">
+            <div
+                className="relative p-4 mt-4 pointer-events-none md:mt-0 lg:mt-0 flex flex-col justify-center items-center -translate-y-8">
                 <div className="absolute inset-0 bg-gradient-to-t from-text to-transparent opacity-10"></div>
                 <svg className="z-50 text-[#00FFEE]"
                      width="148" height="148"

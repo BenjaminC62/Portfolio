@@ -11,13 +11,13 @@
       "title": "BUT Informatique",
       "company": "IUT de Lens",
       "duration": "Septembre 2023 - Présent",
-      "description": "Formation axée sur le développement logiciel, incluant la programmation en Java, Python, et PHP, la gestion de bases de données MySQL, ainsi que la conception d'applications web et mobiles. Participation à des projets collaboratifs et apprentissage des méthodes agiles."
+      "description": "Formation axée sur le développement logiciel, incluant la programmation en Java, Python, et PHP, la gestion de bases de données SQLite et PostgreSQL, ainsi que la conception d'applications web. Participation à des projets collaboratifs et apprentissage des méthodes agiles."
     },
     {
       "title": "Baccalauréat Général",
       "company": "Lycée Albert Châtelet",
       "duration": "Septembre 2022 - Juillet 2023",
-      "description": "Obtention du baccalauréat avec une spécialité en Mathématiques et Numérique & Sciences Informatiques. Développement de projets simples en programmation et initiation à la logique algorithmique."
+      "description": "Obtention du baccalauréat avec spécialité en Mathématiques et Numérique & Sciences Informatiques. Développement de projets simples en programmation et initiation à la logique algorithmique."
     },
     {
       "title": "Stage d'observation en service informatique",
