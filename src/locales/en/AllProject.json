@@ -2,9 +2,9 @@
   "title": "My projects",
   "projects": [
     {
-      "title": "Adventura",
+      "title": "Avantura",
       "timeTaken": "36 hours",
-      "intro": "Adventura is an innovative web application that allows users to share and discover van travel experiences. This project was made in PHP Laravel.",
+      "intro": "Avantura is an innovative web application that allows users to share and discover van travel experiences. This project was made in PHP Laravel.",
       "description": "An online travel journal that centralizes and shares users' van travel experiences. This project aimed to design a functional website in PHP Laravel in less than 36 hours. Our team, composed of 8 members, included 4 students from the Computer Science department and 4 students from the MMI department.",
       "button_text": "View the project"
     },
@@ -26,14 +26,14 @@
       "title": "Amazon-Juste-Prix",
       "timeTaken": "6 hours",
       "intro": "A collaborative project based on the game \"Le Juste Prix\", integrating interactive features such as the choice of difficulty, a ranking, custom themes, a night/day mode, and much more. This project was developed with Python, Flask, TailwindCSS.",
-      "description": "This project, developed as a team over 4 weeks (1h30 per week), is an interactive game inspired by \"Le Juste Prix\". Made with Python, Flask, and TailwindCSS, it offers various features such as the choice of difficulty, a day/night mode, and a ranking system. Each team member contributed to specific aspects, reflecting a great collaboration. This project allowed us to strengthen our programming skills, interface design, and teamwork.",
+      "description": "This project, developed as a team over 4 weeks (1h30 per week), is an interactive game inspired by \"Le Juste Prix\". Made with Python, Flask, and TailwindCSS, it offers various features such as the choice of difficulty, a day/night mode, and a ranking system. Each team member contributed to specific aspects. This project allowed us to strengthen our programming skills, interface design, and teamwork.",
       "button_text": "View the project"
     },
     {
       "title": "L-BIRD",
       "timeTaken": "10 hours",
       "intro": "L-BIRD is a game inspired by Flappy Bird, developed with Unity.",
-      "description": "L-BIRD is a game inspired by Flappy Bird, developed with Unity. The game challenges players to navigate a bird through a series of obstacles by tapping the screen to make it fly. The project was completed in 10 hours and helped strengthen skills in game development and use of Unity. The game offers simple yet attractive graphics, and addictive gameplay reminiscent of the original Flappy Bird game.",
+      "description": "L-BIRD is a game inspired by Flappy Bird, developed with Unity. The game challenges players to navigate a bird through a series of obstacles by tapping the screen to make it fly. The project was completed in 10 hours and helped strengthen my skills in game development and use of Unity. The game offers simple yet attractive graphics, and addictive gameplay reminiscent of the original Flappy Bird game.",
       "button_text": "View the project"
     },
     {

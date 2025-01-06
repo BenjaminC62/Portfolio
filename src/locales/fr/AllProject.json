@@ -2,9 +2,9 @@
   "title": "Mes projets",
   "projects": [
     {
-      "title": "Adventura",
+      "title": "Avantura",
       "timeTaken": "36 heures",
-      "intro": "Adventura est une application web innovante qui permet aux utilisateurs de partager et de découvrir des expériences de voyage en van. Ce projet a été réalisé en PHP Laravel.",
+      "intro": "Avantura est une application web innovante qui permet aux utilisateurs de partager et de découvrir des expériences de voyage en van. Ce projet a été réalisé en PHP Laravel.",
       "description": "Un carnet de voyage en ligne qui centralise et partage les expériences de voyage en van des utilisateurs. Ce projet avait pour objectif de concevoir un site web fonctionnel en PHP Laravel en moins de 36 heures. Notre équipe, composée de 8 membres, incluait 4 étudiants du département Informatique et 4 étudiants issus du département MMI.",
       "button_text": "Voir le projet"
     },
@@ -26,21 +26,21 @@
       "title": "Amazon-Juste-Prix",
       "timeTaken": "6 heures",
       "intro": "Un projet collaboratif basé sur le jeu \"Le Juste Prix\", intégrant des fonctionnalités interactives comme le choix de difficulté, un classement, des thèmes personnalisés, un mode nuit/jour, et bien plus. Ce projet, développé avec Python, Flask, TailwindCSS.",
-      "description": "Ce projet, développé en équipe durant 4 semaines (1h30 par semaine), est un jeu interactif inspiré du \"Juste Prix\". Réalisé avec Python, Flask et TailwindCSS, il propose des fonctionnalités variées telles que le choix de difficulté, un mode jour/nuit, et un système de classement. Chaque membre de l'équipe a contribué à des aspects spécifiques, reflétant une belle collaboration. Ce projet nous a permis de renforcer nos compétences en programmation, en conception d'interfaces et en travail d'équipe.",
+      "description": "Ce projet, développé en équipe durant 4 semaines (1h30 par semaine), est un jeu interactif inspiré du \"Juste Prix\". Réalisé avec Python, Flask et TailwindCSS, il propose des fonctionnalités variées telles que le choix de difficulté, un mode jour/nuit, et un système de classement. Chaque membre de l'équipe a contribué à des aspects spécifiques. Ce projet nous a permis de renforcer nos compétences en programmation, en conception d'interfaces et en travail d'équipe.",
       "button_text": "Voir le projet"
     },
     {
       "title": "L-BIRD",
       "timeTaken": "10 heures",
       "intro": "L-BIRD est un jeu inspiré de Flappy Bird, développé avec Unity.",
-      "description": "L-BIRD est un jeu inspiré de Flappy Bird, développé avec Unity. Le jeu met les joueurs au défi de naviguer un oiseau à travers une série d'obstacles en tapant sur l'écran pour le faire voler. Le projet a été réalisé en 10 heures et a permis de renforcer les compétences en développement de jeux et en utilisation de Unity. Le jeu propose des graphismes simples mais attrayants, et un gameplay addictif qui rappelle le jeu original Flappy Bird.",
+      "description": "L-BIRD est un jeu inspiré de Flappy Bird, développé avec Unity. Le jeu met les joueurs au défi de naviguer un oiseau à travers une série d'obstacles en tapant sur l'écran pour le faire voler. Le projet a été réalisé en 10 heures et a permis de renforcer mes compétences en développement de jeux et en utilisation de Unity. Le jeu propose des graphismes simples mais attrayants, et un gameplay addictif qui rappelle le jeu original Flappy Bird.",
       "button_text": "Voir le projet"
     },
     {
       "title": "LensJudge",
       "timeTaken": "70 heures",
       "intro": "LensJudge est une application Java collaborative créée avec trois camarades, permettant de compiler, exécuter, et vérifier des programmes automatiquement en fonction de cas de test prédéfinis, avec une gestion personnalisable des limites de ressources. Ce projet a été réalisé en Java",
-      "description": "LensJudge est une application Java collaborative développée avec trois camarades de classe. Elle permet aux utilisateurs de compiler, d'exécuter et de vérifier automatiquement des programmes en fonction de cas de test prédéfinis, avec une gestion personnalisable des limites de ressources. Le projet a été réalisé en 70 heures et a nécessité une collaboration et une résolution de problèmes approfondies. Ce projet a amélioré nos compétences en programmation Java, en conception de logiciels et en travail d'équipe, et a fourni une expérience précieuse dans le développement d'une application complexe et concrète.",
+      "description": "LensJudge est une application Java collaborative développée avec trois camarades de classe. Elle permet aux utilisateurs de compiler, d'exécuter et de vérifier automatiquement des programmes en fonction de cas de test prédéfinis, avec une gestion personnalisable des limites de ressources. Le projet a été réalisé en 70 heures et a nécessité une collaboration et une résolution de problèmes approfondies. Ce projet a amélioré nos compétences en programmation Java, en conception de logiciels et en travail d'équipe, et a fourni une bonne expérience dans le développement d'une application complexe et concrète.",
       "button_text": "Voir le projet"
     }
   ]

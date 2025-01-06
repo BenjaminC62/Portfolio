@@ -31,7 +31,7 @@ import rose3 from './../../assets/projects-images/AdditionalImages/rose_3.png';
 
 export const projects = [
     {
-        title: "Adventura",
+        title: "Avantura",
         githubLink: "https://github.com/BenjaminC62/Adventura",
         timeTaken: "36 heures",
         intro: "Adventura est une application web innovante qui permet aux utilisateurs de partager et de découvrir des expériences de voyage en van. Ce projet a été réalisé en PHP Laravel.",
@@ -43,7 +43,7 @@ export const projects = [
         description: "Un carnet de voyage en ligne qui centralise et partage les expériences de voyage en van des utilisateurs. Ce projet avait pour objectif de concevoir un site web fonctionnel en PHP Laravel en moins de 36 heures. Notre équipe, composée de 8 membres, incluait 4 étudiants du département Informatique et 4 étudiants issus du département MMI. ",
         image: adventura,
         button_text: "Voir le projet",
-        link: "/projects/Adventura#top",
+        link: "/projects/Avantura#top",
         collaborators: [
             {
                 name: "Morel Mathias",
@@ -138,7 +138,7 @@ export const projects = [
             amazon2,
             amazon3
         ],
-        description: "Ce projet, développé en équipe durant 4 semaines (1h30 par semaine), est un jeu interactif inspiré du \"Juste Prix\". Réalisé avec Python, Flask et TailwindCSS, il propose des fonctionnalités variées telles que le choix de difficulté, un mode jour/nuit, et un système de classement. Chaque membre de l'équipe a contribué à des aspects spécifiques, reflétant une belle collaboration. Ce projet nous a permis de renforcer nos compétences en programmation, en conception d'interfaces et en travail d'équipe.",
+        description: "Ce projet, développé en équipe durant 4 semaines (1h30 par semaine), est un jeu interactif inspiré du \"Juste Prix\". Réalisé avec Python, Flask et TailwindCSS, il propose des fonctionnalités variées telles que le choix de difficulté, un mode jour/nuit, et un système de classement. Chaque membre de l'équipe a contribué à des aspects spécifiques. Ce projet nous a permis de renforcer nos compétences en programmation, en conception d'interfaces et en travail d'équipe.",
         image: AmazonJuste,
         button_text: "Voir le projet",
         link: "/projects/Amazon-Juste-Prix#top",

@@ -1,9 +1,9 @@
 {
   "projet_1": {
-    "title": "Adventura",
+    "title": "Avantura",
     "description": "Description du projet 1",
     "image": "./../../../assets/projects-images/Adventura.png",
-    "link": "/projects/Adventura"
+    "link": "/projects/Avantura"
   },
   "projet_2": {
     "title": "Bomberman",
