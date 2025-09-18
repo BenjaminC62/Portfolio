@@ -41,3 +41,7 @@ html, body {
 main {
     flex-grow: 1;
 }
+
+.container {
+    height: 100%;
+}
